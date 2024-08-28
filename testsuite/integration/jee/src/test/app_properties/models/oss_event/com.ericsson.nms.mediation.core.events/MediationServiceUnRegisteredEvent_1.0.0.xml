@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Copyright Ericsson LMI 2012. All rights reserved. No part of this document may be reproduced in any form without the written permission of the copyright owner.The contents of this document are subject to revision without notice due to continued progress in methodology, design and manufacturing. Ericsson shall have no liability for any error or damage of any kind resulting from the use of this document.--><ns2:eventDefinition xmlns:ns2="com.ericsson.oss.metamodel.oss_event" xmlns:ns1="com.ericsson.oss.metamodel.oss_common" defaultChannelId="MediationServiceRegistry" description="MediationService deregistration event" lifecycle="normal" ns1:name="MediationServiceUnRegisteredEvent" ns1:namespace="com.ericsson.nms.mediation.core.events" ns1:version="1.0.0" persistence="NON_PERSISTENT" priority="4" timeToLive="0">
+    <ns1:generationInfo className="com.ericsson.nms.mediation.core.events.MediationServiceUnRegisteredEvent" componentId="mediation-core" generationDate="2013-05-29T14:10:00.000+01:00"/>
+    <ns2:attribute description="channel id" filterable="false" lifecycle="normal" ns1:name="channelId">
+        <ns1:attributeDetail xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:StringDataType"/>
+    </ns2:attribute>
+    <ns2:attribute description="service id" filterable="false" lifecycle="normal" ns1:name="serviceId">
+        <ns1:attributeDetail xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:StringDataType"/>
+    </ns2:attribute>
+    <ns2:attribute description="service id" filterable="false" lifecycle="normal" ns1:name="nodeId">
+        <ns1:attributeDetail xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:StringDataType"/>
+    </ns2:attribute>
+</ns2:eventDefinition>

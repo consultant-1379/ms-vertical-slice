@@ -1,0 +1,1234 @@
+[INFO] Scanning for projects...
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Downloading: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/mediation/MediationCore/1.0.3-SNAPSHOT/maven-metadata.xml
+Downloaded: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/mediation/MediationCore/1.0.3-SNAPSHOT/maven-metadata.xml (618 B at 0.2 KB/sec)
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] [MediationService]  Project
+[INFO] [MediationService] JCA API JAR
+[INFO] [MediationService] EFTP
+[INFO] [MediationService] JCA JAR
+[INFO] [MediationService] JCA EJB
+[INFO] [MediationService] RAR Module
+[INFO] [MediationService] EAR Module
+[INFO] [MediationService] TestSuite
+[INFO] [mediation-service-testsuite] TestSuite Integration
+[INFO] [mediation-service-testsuite-integration] TestSuite Integration Standalone
+[INFO] [mediation-service-testsuite-integration] TestSuite Integration Standalone Cluster
+[INFO] [mediation-service-testsuite-integration] TestSuite Integration JEE
+[INFO] [mediation-service-testsuite-integration] TestSuite Integration JEE Cluster
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building [MediationService]  Project 1.0.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ MediationService ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-plugin-versions) @ MediationService ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-versions) @ MediationService ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.4:analyze-dep-mgt (default) @ MediationService ---
+[INFO] Found Resolved Dependency / DependencyManagement mismatches:
+[INFO]    None
+[INFO] 
+[INFO] --- rstate-maven-plugin:1.0:rstate (rstate) @ MediationService ---
+[INFO] Using RState = R1A03_SNAPSHOT
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:copy-resources (copy-resources) @ MediationService ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\src\main\etf
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ MediationService ---
+[INFO] Installing C:\Users\edejket\git\MediationService\pom.xml to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\MediationService\1.0.3-SNAPSHOT\MediationService-1.0.3-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building [MediationService] JCA API JAR 1.0.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/mediation/MediationCore-api/1.0.3-SNAPSHOT/maven-metadata.xml
+Downloaded: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/mediation/MediationCore-api/1.0.3-SNAPSHOT/maven-metadata.xml (796 B at 1.6 KB/sec)
+Downloading: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/mediation/MediationCore-api/1.0.3-SNAPSHOT/maven-metadata.xml
+Downloaded: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/mediation/MediationCore-api/1.0.3-SNAPSHOT/maven-metadata.xml (796 B at 2.0 KB/sec)
+Downloading: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/mediation/MediationCore/1.0.3-SNAPSHOT/maven-metadata.xml
+Downloaded: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/mediation/MediationCore/1.0.3-SNAPSHOT/maven-metadata.xml (618 B at 0.2 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ mediation-service-jca-api-jar ---
+[INFO] Deleting C:\Users\edejket\git\MediationService\mediation-service-jca-api-jar\target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-plugin-versions) @ mediation-service-jca-api-jar ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-versions) @ mediation-service-jca-api-jar ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.4:analyze-dep-mgt (default) @ mediation-service-jca-api-jar ---
+[INFO] Found Resolved Dependency / DependencyManagement mismatches:
+[INFO]    None
+[INFO] 
+[INFO] --- rstate-maven-plugin:1.0:rstate (rstate) @ mediation-service-jca-api-jar ---
+[INFO] Using RState = R1A03_SNAPSHOT
+[INFO] 
+[INFO] --- maven-jaxb2-plugin:0.8.1:generate (default) @ mediation-service-jca-api-jar ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ mediation-service-jca-api-jar ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:copy-resources (copy-resources) @ mediation-service-jca-api-jar ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\mediation-service-jca-api-jar\src\main\etf
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ mediation-service-jca-api-jar ---
+[INFO] Compiling 28 source files to C:\Users\edejket\git\MediationService\mediation-service-jca-api-jar\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ mediation-service-jca-api-jar ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ mediation-service-jca-api-jar ---
+[INFO] Compiling 16 source files to C:\Users\edejket\git\MediationService\mediation-service-jca-api-jar\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ mediation-service-jca-api-jar ---
+[INFO] Surefire report directory: C:\Users\edejket\git\MediationService\mediation-service-jca-api-jar\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Concurrency config is parallel='none', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false
+Running com.ericsson.nms.mediation.datapath.api.MarshalUnmarshalTemplateTest
+eftp://${ipAddress}:${port}?username=${user}&password=${password}
+file:${directory}
+com.ericsson.nms.mediation.datapath.jaxb.generated.BeanType
+com.ericsson.nms.mediation.datapath.jaxb.generated.ReferenceType
+com.ericsson.nms.mediation.datapath.jaxb.generated.BeanType
+com.ericsson.nms.mediation.datapath.jaxb.generated.ReferenceType
+com.ericsson.nms.mediation.datapath.jaxb.generated.BeanType
+com.ericsson.nms.mediation.datapath.jaxb.generated.EndPointType
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.269 sec
+Running com.ericsson.nms.mediation.datapath.impl.DataPathImplTest
+0    [main] DEBUG com.ericsson.nms.mediation.datapath.impl.DataPathImpl  - applyInput called with request com.ericsson.oss.mediation.core.events.FileCollectionJob@1b4d89f
+5    [main] DEBUG com.ericsson.nms.mediation.datapath.impl.DataPathImpl  - ResourceException caught during applyInput method invocation, error message: null
+5    [main] DEBUG com.ericsson.nms.mediation.datapath.impl.DataPathImpl  - closing connection
+5    [main] DEBUG com.ericsson.nms.mediation.datapath.impl.DataPathImpl  - applyInput called with request null
+5    [main] DEBUG com.ericsson.nms.mediation.datapath.impl.DataPathImpl  - Exception caught during applyInput method invocation, error message: null
+6    [main] DEBUG com.ericsson.nms.mediation.datapath.impl.DataPathImpl  - closing connection
+6    [main] DEBUG com.ericsson.nms.mediation.datapath.impl.DataPathImpl  - applyInput called with request com.ericsson.oss.mediation.core.events.MediationTaskRequest@1f
+6    [main] DEBUG com.ericsson.nms.mediation.datapath.impl.DataPathImpl  - Exception caught during applyInput method invocation, error message: com.ericsson.oss.mediation.core.events.MediationTaskRequest cannot be cast to com.ericsson.oss.mediation.core.events.FileCollectionJob
+6    [main] DEBUG com.ericsson.nms.mediation.datapath.impl.DataPathImpl  - closing connection
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.277 sec
+
+Results :
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ mediation-service-jca-api-jar ---
+[INFO] Building jar: C:\Users\edejket\git\MediationService\mediation-service-jca-api-jar\target\MediationService-jca-api.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mediation-service-jca-api-jar ---
+[INFO] Installing C:\Users\edejket\git\MediationService\mediation-service-jca-api-jar\target\MediationService-jca-api.jar to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\mediation-service-jca-api-jar\1.0.3-SNAPSHOT\mediation-service-jca-api-jar-1.0.3-SNAPSHOT.jar
+[INFO] Installing C:\Users\edejket\git\MediationService\mediation-service-jca-api-jar\pom.xml to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\mediation-service-jca-api-jar\1.0.3-SNAPSHOT\mediation-service-jca-api-jar-1.0.3-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building [MediationService] EFTP 1.0.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ eftp_component ---
+[INFO] Deleting C:\Users\edejket\git\MediationService\eftp_component\target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-plugin-versions) @ eftp_component ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-versions) @ eftp_component ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.4:analyze-dep-mgt (default) @ eftp_component ---
+[INFO] Found Resolved Dependency / DependencyManagement mismatches:
+[INFO]    None
+[INFO] 
+[INFO] --- rstate-maven-plugin:1.0:rstate (rstate) @ eftp_component ---
+[INFO] Using RState = R1A03_SNAPSHOT
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ eftp_component ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:copy-resources (copy-resources) @ eftp_component ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\eftp_component\src\main\etf
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ eftp_component ---
+[INFO] Compiling 5 source files to C:\Users\edejket\git\MediationService\eftp_component\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ eftp_component ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\eftp_component\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ eftp_component ---
+[INFO] Compiling 1 source file to C:\Users\edejket\git\MediationService\eftp_component\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ eftp_component ---
+[INFO] Surefire report directory: C:\Users\edejket\git\MediationService\eftp_component\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Concurrency config is parallel='none', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false
+Running com.ericsson.nms.mediation.camel.components.eftp.utils.EftpUtilitiesTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ eftp_component ---
+[INFO] Building jar: C:\Users\edejket\git\MediationService\eftp_component\target\eftp_component-1.0.3-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ eftp_component ---
+[INFO] Installing C:\Users\edejket\git\MediationService\eftp_component\target\eftp_component-1.0.3-SNAPSHOT.jar to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\eftp_component\1.0.3-SNAPSHOT\eftp_component-1.0.3-SNAPSHOT.jar
+[INFO] Installing C:\Users\edejket\git\MediationService\eftp_component\pom.xml to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\eftp_component\1.0.3-SNAPSHOT\eftp_component-1.0.3-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building [MediationService] JCA JAR 1.0.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ mediation-service-jca-jar ---
+[INFO] Deleting C:\Users\edejket\git\MediationService\mediation-service-jca-jar\target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-plugin-versions) @ mediation-service-jca-jar ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-versions) @ mediation-service-jca-jar ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.4:analyze-dep-mgt (default) @ mediation-service-jca-jar ---
+[INFO] Found Resolved Dependency / DependencyManagement mismatches:
+[INFO]    None
+[INFO] 
+[INFO] --- rstate-maven-plugin:1.0:rstate (rstate) @ mediation-service-jca-jar ---
+[INFO] Using RState = R1A03_SNAPSHOT
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ mediation-service-jca-jar ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:copy-resources (copy-resources) @ mediation-service-jca-jar ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\mediation-service-jca-jar\src\main\etf
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ mediation-service-jca-jar ---
+[INFO] Compiling 13 source files to C:\Users\edejket\git\MediationService\mediation-service-jca-jar\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ mediation-service-jca-jar ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ mediation-service-jca-jar ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ mediation-service-jca-jar ---
+[INFO] Surefire report directory: C:\Users\edejket\git\MediationService\mediation-service-jca-jar\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Concurrency config is parallel='none', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ mediation-service-jca-jar ---
+[INFO] Building jar: C:\Users\edejket\git\MediationService\mediation-service-jca-jar\target\MediationService-jca.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mediation-service-jca-jar ---
+[INFO] Installing C:\Users\edejket\git\MediationService\mediation-service-jca-jar\target\MediationService-jca.jar to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\mediation-service-jca-jar\1.0.3-SNAPSHOT\mediation-service-jca-jar-1.0.3-SNAPSHOT.jar
+[INFO] Installing C:\Users\edejket\git\MediationService\mediation-service-jca-jar\pom.xml to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\mediation-service-jca-jar\1.0.3-SNAPSHOT\mediation-service-jca-jar-1.0.3-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building [MediationService] JCA EJB 1.0.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ mediation-service-jca-ejb ---
+[INFO] Deleting C:\Users\edejket\git\MediationService\mediation-service-jca-ejb\target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-plugin-versions) @ mediation-service-jca-ejb ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-versions) @ mediation-service-jca-ejb ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.4:analyze-dep-mgt (default) @ mediation-service-jca-ejb ---
+[INFO] Found Resolved Dependency / DependencyManagement mismatches:
+[INFO]    None
+[INFO] 
+[INFO] --- rstate-maven-plugin:1.0:rstate (rstate) @ mediation-service-jca-ejb ---
+[INFO] Using RState = R1A03_SNAPSHOT
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ mediation-service-jca-ejb ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:copy-resources (copy-resources) @ mediation-service-jca-ejb ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\mediation-service-jca-ejb\src\main\etf
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ mediation-service-jca-ejb ---
+[INFO] Compiling 6 source files to C:\Users\edejket\git\MediationService\mediation-service-jca-ejb\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ mediation-service-jca-ejb ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ mediation-service-jca-ejb ---
+[INFO] Compiling 4 source files to C:\Users\edejket\git\MediationService\mediation-service-jca-ejb\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ mediation-service-jca-ejb ---
+[INFO] Surefire report directory: C:\Users\edejket\git\MediationService\mediation-service-jca-ejb\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Concurrency config is parallel='none', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false
+Running com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolverTest
+0    [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolverTest  - readAndCacheTemplates called, reading xml file and caching templates
+4    [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolverTest  - provideTemplates() called with injected filename src/test/resources/com/ericsson/nms/mediation/mi/camel/jca/ra/ejb/testDatapaths.xml
+269  [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathParser  - parsePathDefinition called with: [com.ericsson.oss.mediation.core.events.FileCollectionJob@e103abbf]
+270  [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathParser  - Using DataPathTemplate provider com.ericsson.nms.mediation.datapath.providers.impl.XMLDataPathTemplateProvider
+270  [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathParser  - lookupTemplateNameFromConfig() is returning data path type id=[com.ericsson.nms.mediation.singleFileTransfer] for FDN=[FDN1]
+270  [main] DEBUG com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates  - Looking for DataPathType with Id=[com.ericsson.nms.mediation.singleFileTransfer]
+270  [main] DEBUG com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates  - Found DataPathType with Id=[com.ericsson.nms.mediation.singleFileTransfer]
+270  [main] DEBUG com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates  - creating datapath definition template for DataPathType with Id=[com.ericsson.nms.mediation.singleFileTransfer]
+270  [main] DEBUG com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates  - Found BeanType with Id=[eftpProcessor], and className=[com.ericsson.nms.mediation.EftpProcessor] 
+270  [main] DEBUG com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates  - Found ReferenceType with ref=[EventFTP], and type=[ENDPOINT] 
+271  [main] DEBUG com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates  - Found BeanType with Id=[fileRenamer], and className=[com.ericsson.nms.mediation.FileRenamer] 
+271  [main] DEBUG com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates  - Found ReferenceType with ref=[Sftp_File], and type=[ENDPOINT] 
+271  [main] DEBUG com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates  - Found BeanType with Id=[Sftp_EventProcessor], and className=[com.ericsson.nms.mediation.EventProcessor] 
+271  [main] DEBUG com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates  - Found EndPointType with Id=[anonymous], uri=[jms], and uri_schema=[jms:queue:${queueName}] 
+272  [main] DEBUG com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplate  - DataPathDefinitionTemplate constructor called...
+275  [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver  - resolving properties for endpoint with uri=[eftp], and Id=[EventFTP, endpoint schema=[eftp://${ipAddress}:${port}?username=${user}&password=${password}]
+276  [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver  - Unresolved URI Schema=[eftp://${ipAddress}:${port}?username=${user}&password=${password}]
+276  [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver  - Replacing variable=[ipAddress], with value=[192.168.103.78]
+276  [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver  - Replacing variable=[port], with value=[22]
+277  [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver  - Replacing variable=[user], with value=[guest]
+277  [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver  - Replacing variable=[password], with value=[guestp]
+277  [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver  - resolving properties for endpoint with uri=[file], and Id=[Sftp_File, endpoint schema=[file:${directory}]
+277  [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver  - Unresolved URI Schema=[file:${directory}]
+277  [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver  - Replacing variable=[directory], with value=[/]
+277  [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver  - resolving properties for endpoint with uri=[jms], and Id=[anonymous, endpoint schema=[jms:queue:${queueName}]
+278  [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver  - Unresolved URI Schema=[jms:queue:${queueName}]
+278  [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver  - Replacing variable=[queueName], with value=[MediationResponseQueue]
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.286 sec
+Running com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathParserTest
+288  [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathParserTest  - readAndCacheTemplates called, reading xml file and caching templates
+288  [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathParserTest  - provideTemplates() called with injected filename src/test/resources/com/ericsson/nms/mediation/mi/camel/jca/ra/ejb/testDatapaths.xml
+313  [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathParser  - parsePathDefinition called with: [com.ericsson.oss.mediation.core.events.FileCollectionJob@e103abbf]
+313  [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathParser  - Using DataPathTemplate provider com.ericsson.nms.mediation.datapath.providers.impl.XMLDataPathTemplateProvider
+313  [main] DEBUG com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathParser  - lookupTemplateNameFromConfig() is returning data path type id=[com.ericsson.nms.mediation.singleFileTransfer] for FDN=[FDN1]
+313  [main] DEBUG com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates  - Looking for DataPathType with Id=[com.ericsson.nms.mediation.singleFileTransfer]
+313  [main] DEBUG com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates  - Found DataPathType with Id=[com.ericsson.nms.mediation.singleFileTransfer]
+313  [main] DEBUG com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates  - creating datapath definition template for DataPathType with Id=[com.ericsson.nms.mediation.singleFileTransfer]
+313  [main] DEBUG com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates  - Found BeanType with Id=[eftpProcessor], and className=[com.ericsson.nms.mediation.EftpProcessor] 
+314  [main] DEBUG com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates  - Found ReferenceType with ref=[EventFTP], and type=[ENDPOINT] 
+314  [main] DEBUG com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates  - Found BeanType with Id=[fileRenamer], and className=[com.ericsson.nms.mediation.FileRenamer] 
+314  [main] DEBUG com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates  - Found ReferenceType with ref=[Sftp_File], and type=[ENDPOINT] 
+314  [main] DEBUG com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates  - Found BeanType with Id=[Sftp_EventProcessor], and className=[com.ericsson.nms.mediation.EventProcessor] 
+314  [main] DEBUG com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates  - Found EndPointType with Id=[anonymous], uri=[jms], and uri_schema=[jms:queue:${queueName}] 
+314  [main] DEBUG com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplate  - DataPathDefinitionTemplate constructor called...
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-ejb-plugin:2.3:ejb (default-ejb) @ mediation-service-jca-ejb ---
+[INFO] Building EJB MediationService-jca-ejb with EJB version 3.1
+[INFO] Building jar: C:\Users\edejket\git\MediationService\mediation-service-jca-ejb\target\MediationService-jca-ejb.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mediation-service-jca-ejb ---
+[INFO] Installing C:\Users\edejket\git\MediationService\mediation-service-jca-ejb\target\MediationService-jca-ejb.jar to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\mediation-service-jca-ejb\1.0.3-SNAPSHOT\mediation-service-jca-ejb-1.0.3-SNAPSHOT.jar
+[INFO] Installing C:\Users\edejket\git\MediationService\mediation-service-jca-ejb\pom.xml to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\mediation-service-jca-ejb\1.0.3-SNAPSHOT\mediation-service-jca-ejb-1.0.3-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building [MediationService] RAR Module 1.0.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ mediation-service-jca-rar ---
+[INFO] Deleting C:\Users\edejket\git\MediationService\mediation-service-jca-rar\target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-plugin-versions) @ mediation-service-jca-rar ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-versions) @ mediation-service-jca-rar ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.4:analyze-dep-mgt (default) @ mediation-service-jca-rar ---
+[INFO] Found Resolved Dependency / DependencyManagement mismatches:
+[INFO]    None
+[INFO] 
+[INFO] --- rstate-maven-plugin:1.0:rstate (rstate) @ mediation-service-jca-rar ---
+[INFO] Using RState = R1A03_SNAPSHOT
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ mediation-service-jca-rar ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\mediation-service-jca-rar\src\main\resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:copy-resources (copy-resources) @ mediation-service-jca-rar ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\mediation-service-jca-rar\src\main\etf
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ mediation-service-jca-rar ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ mediation-service-jca-rar ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\mediation-service-jca-rar\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ mediation-service-jca-rar ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ mediation-service-jca-rar ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: C:\Users\edejket\git\MediationService\mediation-service-jca-rar\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Concurrency config is parallel='none', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-rar-plugin:2.2:rar (rar) @ mediation-service-jca-rar ---
+[INFO] Copying artifact[org.apache.camel, org.apache.camel:camel-core:jar:2.9.1, compile]
+[INFO] Copying artifact[org.apache.camel, org.apache.camel:camel-jms:jar:2.9.1, compile]
+[INFO] Copying artifact[org.apache.camel, org.apache.camel:camel-spring:jar:2.9.1, compile]
+[INFO] Copying artifact[org.springframework, org.springframework:spring-aop:jar:3.0.7.RELEASE, compile]
+[INFO] Copying artifact[org.springframework, org.springframework:spring-jms:jar:3.0.7.RELEASE, compile]
+[INFO] Copying artifact[aopalliance, aopalliance:aopalliance:jar:1.0, compile]
+[INFO] Copying artifact[org.springframework, org.springframework:spring-core:jar:3.0.7.RELEASE, compile]
+[INFO] Copying artifact[org.springframework, org.springframework:spring-asm:jar:3.0.7.RELEASE, compile]
+[INFO] Copying artifact[commons-logging, commons-logging:commons-logging:jar:1.1.1, compile]
+[INFO] Copying artifact[org.springframework, org.springframework:spring-context:jar:3.0.7.RELEASE, compile]
+[INFO] Copying artifact[org.springframework, org.springframework:spring-expression:jar:3.0.7.RELEASE, compile]
+[INFO] Copying artifact[org.springframework, org.springframework:spring-tx:jar:3.0.7.RELEASE, compile]
+[INFO] Copying artifact[org.springframework, org.springframework:spring-beans:jar:3.0.7.RELEASE, compile]
+[INFO] Copying artifact[org.apache.camel, org.apache.camel:camel-ftp:jar:2.9.1, compile]
+[INFO] Copying artifact[com.jcraft, com.jcraft:jsch:jar:0.1.44-1, compile]
+[INFO] Copying artifact[com.ericsson.nms.mediation, com.ericsson.nms.mediation:MediationCore-api:jar:1.0.3-SNAPSHOT, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-tracing-api:jar:1.0.7, compile]
+[INFO] Copying artifact[com.ericsson.nms.mediation, com.ericsson.nms.mediation:mediation-service-jca-api-jar:jar:1.0.3-SNAPSHOT, compile]
+[INFO] Copying artifact[com.ericsson.nms.mediation, com.ericsson.nms.mediation:mediation-service-jca-jar:jar:1.0.3-SNAPSHOT, compile]
+[INFO] Copying artifact[com.ericsson.nms.mediation, com.ericsson.nms.mediation:mediation-service-jca-ejb:ejb:1.0.3-SNAPSHOT, compile]
+[INFO] Copying artifact[com.ericsson.nms.mediation, com.ericsson.nms.mediation:eftp_component:jar:1.0.3-SNAPSHOT, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-eventbus-api:jar:1.0.8, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-eventbus-jms:jar:1.0.7, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-eventbus-core:jar:1.0.7, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:model-service-api:jar:1.0.7, compile]
+[INFO] Copying artifact[org.jboss.solder, org.jboss.solder:solder-impl:jar:3.1.1.Final, compile]
+[INFO] Copying artifact[org.jboss.solder, org.jboss.solder:solder-api:jar:3.1.1.Final, compile]
+[INFO] Copying artifact[org.jboss.solder, org.jboss.solder:solder-logging:jar:3.1.1.Final, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-services-core:jar:1.0.7, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-tracing:jar:1.0.7, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-el:jar:1.0.7, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-config-impl-dev:jar:1.0.7, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-config-core:jar:1.0.7, compile]
+[INFO] Copying artifact[commons-configuration, commons-configuration:commons-configuration:jar:1.7, compile]
+[INFO] Copying artifact[commons-collections, commons-collections:commons-collections:jar:3.2.1, compile]
+[INFO] Copying artifact[commons-lang, commons-lang:commons-lang:jar:2.6, compile]
+[INFO] Copying artifact[commons-digester, commons-digester:commons-digester:jar:1.8.1, compile]
+[INFO] Copying artifact[commons-beanutils, commons-beanutils:commons-beanutils:jar:1.8.3, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-config-api:jar:1.0.9, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-el-api:jar:1.0.7, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-modeled-eventbus-api:jar:1.0.8, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-modeled-eventbus:jar:1.0.7, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:model-service-mock:jar:1.0.7, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-eventbus-jms-hornetq:jar:1.0.7, compile]
+[INFO] Copying artifact[de.odysseus.juel, de.odysseus.juel:juel-impl:jar:2.2.4, compile]
+[INFO] Copying artifact[de.odysseus.juel, de.odysseus.juel:juel-api:jar:2.2.4, compile]
+[INFO] Copying artifact[de.odysseus.juel, de.odysseus.juel:juel-spi:jar:2.2.4, compile]
+[INFO] Copying artifact[commons-net, commons-net:commons-net:jar:2.2, compile]
+[INFO] Copy rar resources to C:\Users\edejket\git\MediationService\mediation-service-jca-rar\target\mediation-service-jca-rar-1.0.3-SNAPSHOT
+[WARNING] Connector deployment descriptor: C:\Users\edejket\git\MediationService\mediation-service-jca-rar\target\mediation-service-jca-rar-1.0.3-SNAPSHOT\META-INF\ra.xml does not exist.
+[INFO] Could not find manifest file: C:\Users\edejket\git\MediationService\mediation-service-jca-rar\src\main\rar\META-INF\MANIFEST.MF - Generating one
+[INFO] Building jar: C:\Users\edejket\git\MediationService\mediation-service-jca-rar\target\mediation-service-jca-rar-1.0.3-SNAPSHOT.rar
+[INFO] 
+[INFO] --- maven-rar-plugin:2.2:rar (default-rar) @ mediation-service-jca-rar ---
+[INFO] Copying artifact[org.apache.camel, org.apache.camel:camel-core:jar:2.9.1, compile]
+[INFO] Copying artifact[org.apache.camel, org.apache.camel:camel-jms:jar:2.9.1, compile]
+[INFO] Copying artifact[org.apache.camel, org.apache.camel:camel-spring:jar:2.9.1, compile]
+[INFO] Copying artifact[org.springframework, org.springframework:spring-aop:jar:3.0.7.RELEASE, compile]
+[INFO] Copying artifact[org.springframework, org.springframework:spring-jms:jar:3.0.7.RELEASE, compile]
+[INFO] Copying artifact[aopalliance, aopalliance:aopalliance:jar:1.0, compile]
+[INFO] Copying artifact[org.springframework, org.springframework:spring-core:jar:3.0.7.RELEASE, compile]
+[INFO] Copying artifact[org.springframework, org.springframework:spring-asm:jar:3.0.7.RELEASE, compile]
+[INFO] Copying artifact[commons-logging, commons-logging:commons-logging:jar:1.1.1, compile]
+[INFO] Copying artifact[org.springframework, org.springframework:spring-context:jar:3.0.7.RELEASE, compile]
+[INFO] Copying artifact[org.springframework, org.springframework:spring-expression:jar:3.0.7.RELEASE, compile]
+[INFO] Copying artifact[org.springframework, org.springframework:spring-tx:jar:3.0.7.RELEASE, compile]
+[INFO] Copying artifact[org.springframework, org.springframework:spring-beans:jar:3.0.7.RELEASE, compile]
+[INFO] Copying artifact[org.apache.camel, org.apache.camel:camel-ftp:jar:2.9.1, compile]
+[INFO] Copying artifact[com.jcraft, com.jcraft:jsch:jar:0.1.44-1, compile]
+[INFO] Copying artifact[com.ericsson.nms.mediation, com.ericsson.nms.mediation:MediationCore-api:jar:1.0.3-SNAPSHOT, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-tracing-api:jar:1.0.7, compile]
+[INFO] Copying artifact[com.ericsson.nms.mediation, com.ericsson.nms.mediation:mediation-service-jca-api-jar:jar:1.0.3-SNAPSHOT, compile]
+[INFO] Copying artifact[com.ericsson.nms.mediation, com.ericsson.nms.mediation:mediation-service-jca-jar:jar:1.0.3-SNAPSHOT, compile]
+[INFO] Copying artifact[com.ericsson.nms.mediation, com.ericsson.nms.mediation:mediation-service-jca-ejb:ejb:1.0.3-SNAPSHOT, compile]
+[INFO] Copying artifact[com.ericsson.nms.mediation, com.ericsson.nms.mediation:eftp_component:jar:1.0.3-SNAPSHOT, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-eventbus-api:jar:1.0.8, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-eventbus-jms:jar:1.0.7, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-eventbus-core:jar:1.0.7, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:model-service-api:jar:1.0.7, compile]
+[INFO] Copying artifact[org.jboss.solder, org.jboss.solder:solder-impl:jar:3.1.1.Final, compile]
+[INFO] Copying artifact[org.jboss.solder, org.jboss.solder:solder-api:jar:3.1.1.Final, compile]
+[INFO] Copying artifact[org.jboss.solder, org.jboss.solder:solder-logging:jar:3.1.1.Final, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-services-core:jar:1.0.7, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-tracing:jar:1.0.7, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-el:jar:1.0.7, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-config-impl-dev:jar:1.0.7, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-config-core:jar:1.0.7, compile]
+[INFO] Copying artifact[commons-configuration, commons-configuration:commons-configuration:jar:1.7, compile]
+[INFO] Copying artifact[commons-collections, commons-collections:commons-collections:jar:3.2.1, compile]
+[INFO] Copying artifact[commons-lang, commons-lang:commons-lang:jar:2.6, compile]
+[INFO] Copying artifact[commons-digester, commons-digester:commons-digester:jar:1.8.1, compile]
+[INFO] Copying artifact[commons-beanutils, commons-beanutils:commons-beanutils:jar:1.8.3, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-config-api:jar:1.0.9, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-el-api:jar:1.0.7, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-modeled-eventbus-api:jar:1.0.8, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-modeled-eventbus:jar:1.0.7, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:model-service-mock:jar:1.0.7, compile]
+[INFO] Copying artifact[com.ericsson.oss.itpf.sdk, com.ericsson.oss.itpf.sdk:sdk-eventbus-jms-hornetq:jar:1.0.7, compile]
+[INFO] Copying artifact[de.odysseus.juel, de.odysseus.juel:juel-impl:jar:2.2.4, compile]
+[INFO] Copying artifact[de.odysseus.juel, de.odysseus.juel:juel-api:jar:2.2.4, compile]
+[INFO] Copying artifact[de.odysseus.juel, de.odysseus.juel:juel-spi:jar:2.2.4, compile]
+[INFO] Copying artifact[commons-net, commons-net:commons-net:jar:2.2, compile]
+[INFO] Copy rar resources to C:\Users\edejket\git\MediationService\mediation-service-jca-rar\target\mediation-service-jca-rar-1.0.3-SNAPSHOT
+[WARNING] Connector deployment descriptor: C:\Users\edejket\git\MediationService\mediation-service-jca-rar\target\mediation-service-jca-rar-1.0.3-SNAPSHOT\META-INF\ra.xml does not exist.
+[INFO] Could not find manifest file: C:\Users\edejket\git\MediationService\mediation-service-jca-rar\src\main\rar\META-INF\MANIFEST.MF - Generating one
+[INFO] Building jar: C:\Users\edejket\git\MediationService\mediation-service-jca-rar\target\mediation-service-jca-rar-1.0.3-SNAPSHOT.rar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mediation-service-jca-rar ---
+[INFO] Installing C:\Users\edejket\git\MediationService\mediation-service-jca-rar\target\mediation-service-jca-rar-1.0.3-SNAPSHOT.rar to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\mediation-service-jca-rar\1.0.3-SNAPSHOT\mediation-service-jca-rar-1.0.3-SNAPSHOT.rar
+[INFO] Installing C:\Users\edejket\git\MediationService\mediation-service-jca-rar\pom.xml to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\mediation-service-jca-rar\1.0.3-SNAPSHOT\mediation-service-jca-rar-1.0.3-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building [MediationService] EAR Module 1.0.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ mediation-service-ear ---
+[INFO] Deleting C:\Users\edejket\git\MediationService\mediation-service-ear\target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-plugin-versions) @ mediation-service-ear ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-versions) @ mediation-service-ear ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.4:analyze-dep-mgt (default) @ mediation-service-ear ---
+[INFO] Found Resolved Dependency / DependencyManagement mismatches:
+[INFO]    None
+[INFO] 
+[INFO] --- rstate-maven-plugin:1.0:rstate (rstate) @ mediation-service-ear ---
+[INFO] Using RState = R1A03_SNAPSHOT
+[INFO] 
+[INFO] --- maven-ear-plugin:2.5:generate-application-xml (default-generate-application-xml) @ mediation-service-ear ---
+[INFO] Generating application.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ mediation-service-ear ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\mediation-service-ear\src\main\resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:copy-resources (copy-resources) @ mediation-service-ear ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\mediation-service-ear\src\main\etf
+[INFO] 
+[INFO] --- maven-ear-plugin:2.5:ear (default-ear) @ mediation-service-ear ---
+[INFO] Copying artifact[rar:com.ericsson.nms.mediation:mediation-service-jca-rar:1.0.3-SNAPSHOT] to[MediationService.rar]
+[INFO] Copy ear sources to C:\Users\edejket\git\MediationService\mediation-service-ear\target\mediation-service-ear-1.0.3-SNAPSHOT
+[INFO] Could not find manifest file: C:\Users\edejket\git\MediationService\mediation-service-ear\target\mediation-service-ear-1.0.3-SNAPSHOT\META-INF\MANIFEST.MF - Generating one
+[INFO] Building jar: C:\Users\edejket\git\MediationService\mediation-service-ear\target\MediationService.ear
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mediation-service-ear ---
+[INFO] Installing C:\Users\edejket\git\MediationService\mediation-service-ear\target\MediationService.ear to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\mediation-service-ear\1.0.3-SNAPSHOT\mediation-service-ear-1.0.3-SNAPSHOT.ear
+[INFO] Installing C:\Users\edejket\git\MediationService\mediation-service-ear\pom.xml to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\mediation-service-ear\1.0.3-SNAPSHOT\mediation-service-ear-1.0.3-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building [MediationService] TestSuite 1.0.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ mediation-service-testsuite ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-plugin-versions) @ mediation-service-testsuite ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-versions) @ mediation-service-testsuite ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.4:analyze-dep-mgt (default) @ mediation-service-testsuite ---
+[INFO] Found Resolved Dependency / DependencyManagement mismatches:
+[INFO]    None
+[INFO] 
+[INFO] --- rstate-maven-plugin:1.0:rstate (rstate) @ mediation-service-testsuite ---
+[INFO] Using RState = R1A03_SNAPSHOT
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:copy-resources (copy-resources) @ mediation-service-testsuite ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\testsuite\src\main\etf
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mediation-service-testsuite ---
+[INFO] Installing C:\Users\edejket\git\MediationService\testsuite\pom.xml to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\mediation-service-testsuite\1.0.3-SNAPSHOT\mediation-service-testsuite-1.0.3-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building [mediation-service-testsuite] TestSuite Integration 1.0.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ mediation-service-testsuite-integration ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-plugin-versions) @ mediation-service-testsuite-integration ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-versions) @ mediation-service-testsuite-integration ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.4:analyze-dep-mgt (default) @ mediation-service-testsuite-integration ---
+[INFO] Found Resolved Dependency / DependencyManagement mismatches:
+[INFO]    None
+[INFO] 
+[INFO] --- rstate-maven-plugin:1.0:rstate (rstate) @ mediation-service-testsuite-integration ---
+[INFO] Using RState = R1A03_SNAPSHOT
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:copy-resources (copy-resources) @ mediation-service-testsuite-integration ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\testsuite\integration\src\main\etf
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mediation-service-testsuite-integration ---
+[INFO] Installing C:\Users\edejket\git\MediationService\testsuite\integration\pom.xml to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\mediation-service-testsuite-integration\1.0.3-SNAPSHOT\mediation-service-testsuite-integration-1.0.3-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building [mediation-service-testsuite-integration] TestSuite Integration Standalone 1.0.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ mediation-service-testsuite-integration-standalone ---
+[INFO] Deleting C:\Users\edejket\git\MediationService\testsuite\integration\standalone\target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-plugin-versions) @ mediation-service-testsuite-integration-standalone ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-versions) @ mediation-service-testsuite-integration-standalone ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.4:analyze-dep-mgt (default) @ mediation-service-testsuite-integration-standalone ---
+[INFO] Found Resolved Dependency / DependencyManagement mismatches:
+[INFO]    None
+[INFO] 
+[INFO] --- rstate-maven-plugin:1.0:rstate (rstate) @ mediation-service-testsuite-integration-standalone ---
+[INFO] Using RState = R1A03_SNAPSHOT
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ mediation-service-testsuite-integration-standalone ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:copy-resources (copy-resources) @ mediation-service-testsuite-integration-standalone ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\testsuite\integration\standalone\src\main\etf
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ mediation-service-testsuite-integration-standalone ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ mediation-service-testsuite-integration-standalone ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ mediation-service-testsuite-integration-standalone ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ mediation-service-testsuite-integration-standalone ---
+[INFO] Surefire report directory: C:\Users\edejket\git\MediationService\testsuite\integration\standalone\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Concurrency config is parallel='none', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ mediation-service-testsuite-integration-standalone ---
+[INFO] Building jar: C:\Users\edejket\git\MediationService\testsuite\integration\standalone\target\mediation-service-testsuite-integration-standalone-1.0.3-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mediation-service-testsuite-integration-standalone ---
+[INFO] Installing C:\Users\edejket\git\MediationService\testsuite\integration\standalone\target\mediation-service-testsuite-integration-standalone-1.0.3-SNAPSHOT.jar to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\mediation-service-testsuite-integration-standalone\1.0.3-SNAPSHOT\mediation-service-testsuite-integration-standalone-1.0.3-SNAPSHOT.jar
+[INFO] Installing C:\Users\edejket\git\MediationService\testsuite\integration\standalone\pom.xml to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\mediation-service-testsuite-integration-standalone\1.0.3-SNAPSHOT\mediation-service-testsuite-integration-standalone-1.0.3-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building [mediation-service-testsuite-integration] TestSuite Integration Standalone Cluster 1.0.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ mediation-service-testsuite-integration-standalone-cluster ---
+[INFO] Deleting C:\Users\edejket\git\MediationService\testsuite\integration\standalone-cluster\target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-plugin-versions) @ mediation-service-testsuite-integration-standalone-cluster ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-versions) @ mediation-service-testsuite-integration-standalone-cluster ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.4:analyze-dep-mgt (default) @ mediation-service-testsuite-integration-standalone-cluster ---
+[INFO] Found Resolved Dependency / DependencyManagement mismatches:
+[INFO]    None
+[INFO] 
+[INFO] --- rstate-maven-plugin:1.0:rstate (rstate) @ mediation-service-testsuite-integration-standalone-cluster ---
+[INFO] Using RState = R1A03_SNAPSHOT
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ mediation-service-testsuite-integration-standalone-cluster ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\testsuite\integration\standalone-cluster\src\main\resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:copy-resources (copy-resources) @ mediation-service-testsuite-integration-standalone-cluster ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\testsuite\integration\standalone-cluster\src\main\etf
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ mediation-service-testsuite-integration-standalone-cluster ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ mediation-service-testsuite-integration-standalone-cluster ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\testsuite\integration\standalone-cluster\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ mediation-service-testsuite-integration-standalone-cluster ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ mediation-service-testsuite-integration-standalone-cluster ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: C:\Users\edejket\git\MediationService\testsuite\integration\standalone-cluster\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Concurrency config is parallel='none', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ mediation-service-testsuite-integration-standalone-cluster ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: C:\Users\edejket\git\MediationService\testsuite\integration\standalone-cluster\target\mediation-service-testsuite-integration-standalone-cluster-1.0.3-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mediation-service-testsuite-integration-standalone-cluster ---
+[INFO] Installing C:\Users\edejket\git\MediationService\testsuite\integration\standalone-cluster\target\mediation-service-testsuite-integration-standalone-cluster-1.0.3-SNAPSHOT.jar to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\mediation-service-testsuite-integration-standalone-cluster\1.0.3-SNAPSHOT\mediation-service-testsuite-integration-standalone-cluster-1.0.3-SNAPSHOT.jar
+[INFO] Installing C:\Users\edejket\git\MediationService\testsuite\integration\standalone-cluster\pom.xml to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\mediation-service-testsuite-integration-standalone-cluster\1.0.3-SNAPSHOT\mediation-service-testsuite-integration-standalone-cluster-1.0.3-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building [mediation-service-testsuite-integration] TestSuite Integration JEE 1.0.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/mediation/MediationCore-ejb/1.0.3-SNAPSHOT/maven-metadata.xml
+Downloaded: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/mediation/MediationCore-ejb/1.0.3-SNAPSHOT/maven-metadata.xml (1010 B at 0.8 KB/sec)
+Downloading: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/mediation/MediationCore-ejb/1.0.3-SNAPSHOT/maven-metadata.xml
+Downloaded: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/mediation/MediationCore-ejb/1.0.3-SNAPSHOT/maven-metadata.xml (1010 B at 0.4 KB/sec)
+Downloading: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/mediation/MediationCore-jar/1.0.3-SNAPSHOT/maven-metadata.xml
+Downloaded: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/mediation/MediationCore-jar/1.0.3-SNAPSHOT/maven-metadata.xml (796 B at 0.4 KB/sec)
+Downloading: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/mediation/MediationCore-jar/1.0.3-SNAPSHOT/maven-metadata.xml
+Downloaded: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/mediation/MediationCore-jar/1.0.3-SNAPSHOT/maven-metadata.xml (796 B at 1.0 KB/sec)
+Downloading: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/services/PMService-api/1.0.3-SNAPSHOT/maven-metadata.xml
+Downloaded: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/services/PMService-api/1.0.3-SNAPSHOT/maven-metadata.xml (791 B at 1.0 KB/sec)
+Downloading: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/services/PMService/1.0.3-SNAPSHOT/maven-metadata.xml
+Downloaded: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/services/PMService/1.0.3-SNAPSHOT/maven-metadata.xml (613 B at 1.1 KB/sec)
+Downloading: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/services/PMService-ejb/1.0.3-SNAPSHOT/maven-metadata.xml
+Downloaded: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/services/PMService-ejb/1.0.3-SNAPSHOT/maven-metadata.xml (791 B at 0.5 KB/sec)
+Downloading: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/services/PMService-war/1.0.3-SNAPSHOT/maven-metadata.xml
+Downloaded: https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public/com/ericsson/nms/services/PMService-war/1.0.3-SNAPSHOT/maven-metadata.xml (791 B at 0.4 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ mediation-service-testsuite-integration-jee ---
+[INFO] Deleting C:\Users\edejket\git\MediationService\testsuite\integration\jee\target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-plugin-versions) @ mediation-service-testsuite-integration-jee ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-versions) @ mediation-service-testsuite-integration-jee ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.4:analyze-dep-mgt (default) @ mediation-service-testsuite-integration-jee ---
+[INFO] Found Resolved Dependency / DependencyManagement mismatches:
+[INFO]    None
+[INFO] 
+[INFO] --- rstate-maven-plugin:1.0:rstate (rstate) @ mediation-service-testsuite-integration-jee ---
+[INFO] Using RState = R1A03_SNAPSHOT
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.4:unpack (unpack) @ mediation-service-testsuite-integration-jee ---
+[INFO] Configured Artifact: org.jboss.as:jboss-as-dist:7.1.1.Final:zip
+[INFO] Unpacking C:\Users\edejket\.m2\repository\org\jboss\as\jboss-as-dist\7.1.1.Final\jboss-as-dist-7.1.1.Final.zip to C:\Users\edejket\git\MediationService\testsuite\integration\jee\target with includes "" and excludes ""
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (changing configuration parameters) @ mediation-service-testsuite-integration-jee ---
+[WARNING] Parameter tasks is deprecated, use target instead
+[INFO] Executing tasks
+
+main:
+     [echo] changing configuration parameters ...
+     [echo] replacing standalone-full.xml with our with adjusted log
+     [echo] 											levels ...
+     [echo] C:\Users\edejket\git\MediationService\testsuite\integration\jee
+     [copy] Copying 1 file to C:\Users\edejket\git\MediationService\testsuite\integration\jee\target\jboss-as-7.1.1.Final\standalone\configuration
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ mediation-service-testsuite-integration-jee ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\testsuite\integration\jee\src\main\resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:copy-resources (copy-resources) @ mediation-service-testsuite-integration-jee ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\testsuite\integration\jee\src\main\etf
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ mediation-service-testsuite-integration-jee ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ mediation-service-testsuite-integration-jee ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ mediation-service-testsuite-integration-jee ---
+[INFO] Compiling 4 source files to C:\Users\edejket\git\MediationService\testsuite\integration\jee\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ mediation-service-testsuite-integration-jee ---
+[INFO] Surefire report directory: C:\Users\edejket\git\MediationService\testsuite\integration\jee\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Concurrency config is parallel='none', perCoreThreadCount=true, threadCount=5, useUnlimitedThreads=false
+DEBUG | logging                             | Logging Provider: org.jboss.logging.Log4jLoggerProvider
+Jun 26, 2012 11:04:08 PM org.jboss.as.arquillian.container.managed.ManagedDeployableContainer startInternal
+INFO: Starting container with: ["C:\Program Files\Java\jdk1.7.0_04\jre\bin\java", -Djboss.socket.binding.port-offset=500, -Xmx1024m, -XX:MaxPermSize=256m, -Djboss.node.name=jboss_managed, -Dcom.ericsson.oss.sdk.config.default.properties.path=src/test/ftp_test/conf, -ea, -Djboss.home.dir=target/jboss-as-7.1.1.Final, -Dorg.jboss.boot.log.file=target/jboss-as-7.1.1.Final/standalone/log/boot.log, -Dlogging.configuration=file:target/jboss-as-7.1.1.Final/standalone/configuration/logging.properties, -Djboss.modules.dir=C:\Users\edejket\git\MediationService\testsuite\integration\jee\target\jboss-as-7.1.1.Final\modules, -Djboss.bundles.dir=C:\Users\edejket\git\MediationService\testsuite\integration\jee\target\jboss-as-7.1.1.Final\bundles, -jar, C:\Users\edejket\git\MediationService\testsuite\integration\jee\target\jboss-as-7.1.1.Final\jboss-modules.jar, -mp, target/jboss-as-7.1.1.Final\modules, -jaxpmodule, javax.xml.jaxp-provider, org.jboss.as.standalone, -server-config, standalone-full.xml]
+INFO  | xnio                                | XNIO Version 3.0.0.GA
+INFO  | nio                                 | XNIO NIO Implementation Version 3.0.0.GA
+INFO  | remoting                            | JBoss Remoting version 3.2.3.GA
+DEBUG | nio                                 | Started channel thread 'Remoting "management-client" read-1', selector sun.nio.ch.WindowsSelectorImpl@d63e95
+DEBUG | nio                                 | Started channel thread 'Remoting "management-client" write-1', selector sun.nio.ch.WindowsSelectorImpl@10f8c82
+23:04:10,764 INFO  [org.jboss.modules] JBoss Modules version 1.1.1.GA
+23:04:16,069 INFO  [org.jboss.msc] JBoss MSC version 1.0.2.GA
+23:04:16,186 INFO  [org.jboss.as] JBAS015899: JBoss AS 7.1.1.Final "Brontes" starting
+23:04:40,063 INFO  [org.xnio] XNIO Version 3.0.3.GA
+23:04:40,064 INFO  [org.jboss.as.server] JBAS015888: Creating http management service using socket-binding (management-http)
+23:04:40,081 INFO  [org.xnio.nio] XNIO NIO Implementation Version 3.0.3.GA
+23:04:40,094 INFO  [org.jboss.remoting] JBoss Remoting version 3.2.3.GA
+23:04:40,305 INFO  [org.jboss.as.logging] JBAS011502: Removing bootstrap log handlers
+23:04:40,317 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 56) JBAS016300: Activating JacORB Subsystem
+23:04:40,316 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) JBAS010280: Activating Infinispan subsystem.
+23:04:40,325 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 67) JBAS011940: Activating OSGi Subsystem
+23:04:40,362 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) JBAS015537: Activating WebServices Extension
+23:04:40,310 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 50) JBAS016200: Activating ConfigAdmin Subsystem
+23:04:40,356 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 72) JBAS013101: Activating Security Subsystem
+23:04:40,440 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 66) JBAS011800: Activating Naming Subsystem
+23:04:40,511 INFO  [org.jboss.as.security] (MSC service thread 1-3) JBAS013100: Current PicketBox version=4.0.7.Final
+23:04:40,542 INFO  [org.jboss.as.naming] (MSC service thread 1-5) JBAS011802: Starting Naming Service
+23:04:40,574 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) JBAS015400: Bound mail session [java:jboss/mail/Default]
+23:04:40,584 INFO  [org.jboss.as.connector] (MSC service thread 1-1) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+23:04:40,654 INFO  [org.jboss.jaxr] (MSC service thread 1-5) JBAS014000: Started JAXR subsystem, binding JAXR connection factory into JNDI as: java:jboss/jaxr/ConnectionFactory
+23:04:40,804 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 51) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+23:04:41,274 WARN  [org.jboss.as.messaging] (MSC service thread 1-5) JBAS011600: AIO wasn't located on this platform, it will fall back to using pure Java NIO. If your platform is Linux, install LibAIO to enable the AIO journal
+23:04:41,285 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) Starting Coyote HTTP/1.1 on http--127.0.0.1-8580
+23:04:41,529 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+23:04:42,227 WARN  [jacorb.codeset] (MSC service thread 1-6) Warning - unknown codeset (Cp1252) - defaulting to ISO-8859-1
+23:04:42,263 INFO  [org.jboss.as.jacorb] (MSC service thread 1-6) JBAS016330: CORBA ORB Service started
+23:04:42,390 INFO  [org.jboss.as.jacorb] (MSC service thread 1-6) JBAS016328: CORBA Naming Service started
+23:04:42,431 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-5) live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=C:\Users\edejket\git\MediationService\testsuite\integration\jee\target\jboss-as-7.1.1.Final\standalone\data\messagingjournal,bindingsDirectory=C:\Users\edejket\git\MediationService\testsuite\integration\jee\target\jboss-as-7.1.1.Final\standalone\data\messagingbindings,largeMessagesDirectory=C:\Users\edejket\git\MediationService\testsuite\integration\jee\target\jboss-as-7.1.1.Final\standalone\data\messaginglargemessages,pagingDirectory=C:\Users\edejket\git\MediationService\testsuite\integration\jee\target\jboss-as-7.1.1.Final\standalone\data\messagingpaging)
+23:04:42,435 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-5) Waiting to obtain live lock
+23:04:42,460 INFO  [org.hornetq.core.persistence.impl.journal.JournalStorageManager] (MSC service thread 1-5) Using NIO Journal
+23:04:42,545 INFO  [org.hornetq.core.server.impl.FileLockNodeManager] (MSC service thread 1-5) Waiting to obtain live lock
+23:04:42,547 INFO  [org.hornetq.core.server.impl.FileLockNodeManager] (MSC service thread 1-5) Live Server Obtained live lock
+23:04:43,537 INFO  [org.hornetq.core.remoting.impl.netty.NettyAcceptor] (MSC service thread 1-5) Started Netty Acceptor version 3.2.5.Final-a96d88c AMT.AMTTEST:5945 for CORE protocol
+23:04:43,545 INFO  [org.hornetq.core.remoting.impl.netty.NettyAcceptor] (MSC service thread 1-5) Started Netty Acceptor version 3.2.5.Final-a96d88c AMT.AMTTEST:5955 for CORE protocol
+23:04:43,549 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-5) Server is now live
+23:04:43,551 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-5) HornetQ Server version 2.2.13.Final (HQ_2_2_13_FINAL_AS7, 122) [ee8dc705-bfda-11e1-96f0-0024d7c231fc]) started
+23:04:43,559 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-1) trying to deploy queue jms.topic.testTopic
+23:04:43,859 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-5) JBAS010406: Registered connection factory java:/JmsXA
+23:04:43,868 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011601: Bound messaging object to jndi name java:/topic/test
+23:04:43,870 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/topic/test
+23:04:43,871 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-4) trying to deploy queue jms.queue.testQueue
+23:04:43,873 INFO  [org.hornetq.ra.HornetQResourceAdapter] (MSC service thread 1-5) HornetQ resource adaptor started
+23:04:43,873 INFO  [org.jboss.as.connector.services.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-5) IJ020002: Deployed: file://RaActivatorhornetq-ra
+23:04:43,876 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-3) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+23:04:43,915 INFO  [org.jboss.as.messaging] (MSC service thread 1-4) JBAS011601: Bound messaging object to jndi name java:/queue/test
+23:04:43,916 INFO  [org.jboss.as.messaging] (MSC service thread 1-4) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/queue/test
+23:04:43,921 INFO  [org.jboss.as.messaging] (MSC service thread 1-6) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+23:04:43,923 INFO  [org.jboss.as.messaging] (MSC service thread 1-8) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+23:04:43,924 INFO  [org.jboss.as.messaging] (MSC service thread 1-8) JBAS011601: Bound messaging object to jndi name java:/RemoteConnectionFactory
+23:04:49,994 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-7) JBoss Web Services - Stack CXF Server 4.0.2.GA
+23:04:52,779 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on AMT.AMTTEST/127.0.0.1:4947
+23:04:52,794 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on /127.0.0.1:10499
+23:04:52,826 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\edejket\git\MediationService\testsuite\integration\jee\target\jboss-as-7.1.1.Final\standalone\deployments
+23:04:54,459 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:10490
+23:04:54,459 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 45611ms - Started 190 of 269 services (78 services are passive or on-demand)
+Jun 26, 2012 11:04:56 PM org.jboss.shrinkwrap.resolver.impl.maven.LogRepositoryListener metadataInvalid
+WARNING: Invalid metadata com.ericsson.nms.mediation:MediationCore:1.0.3-SNAPSHOT/maven-metadata.xml
+Jun 26, 2012 11:04:56 PM org.jboss.shrinkwrap.resolver.impl.maven.LogRepositoryListener metadataInvalid
+WARNING: Invalid metadata com.ericsson.nms.mediation:MediationCore:1.0.3-SNAPSHOT/maven-metadata.xml
+Jun 26, 2012 11:04:56 PM org.jboss.shrinkwrap.resolver.impl.maven.LogRepositoryListener metadataInvalid
+WARNING: Invalid metadata com.ericsson.nms.mediation:mediation-service-jca-rar:1.0.3-SNAPSHOT/maven-metadata.xml
+Jun 26, 2012 11:04:56 PM org.jboss.shrinkwrap.resolver.impl.maven.LogRepositoryListener metadataInvalid
+WARNING: Invalid metadata com.ericsson.nms.mediation:mediation-service-jca-rar:1.0.3-SNAPSHOT/maven-metadata.xml
+Jun 26, 2012 11:04:56 PM org.jboss.shrinkwrap.resolver.impl.maven.LogRepositoryListener metadataInvalid
+WARNING: Invalid metadata com.ericsson.nms.mediation:MediationService:1.0.3-SNAPSHOT/maven-metadata.xml
+Jun 26, 2012 11:04:56 PM org.jboss.shrinkwrap.resolver.impl.maven.LogRepositoryListener metadataInvalid
+WARNING: Invalid metadata com.ericsson.nms.mediation:MediationCore:1.0.3-SNAPSHOT/maven-metadata.xml
+Jun 26, 2012 11:04:56 PM org.jboss.shrinkwrap.resolver.impl.maven.LogRepositoryListener metadataInvalid
+WARNING: Invalid metadata com.ericsson.nms.mediation:mediation-service-jca-rar:1.0.3-SNAPSHOT/maven-metadata.xml
+Jun 26, 2012 11:04:57 PM org.jboss.shrinkwrap.resolver.impl.maven.LogRepositoryListener metadataInvalid
+WARNING: Invalid metadata com.ericsson.nms.mediation:MediationCore:1.0.3-SNAPSHOT/maven-metadata.xml
+Jun 26, 2012 11:04:57 PM org.jboss.shrinkwrap.resolver.impl.maven.LogRepositoryListener metadataInvalid
+WARNING: Invalid metadata com.ericsson.nms.mediation:MediationCore-api:1.0.3-SNAPSHOT/maven-metadata.xml
+Jun 26, 2012 11:04:57 PM org.jboss.shrinkwrap.resolver.impl.maven.LogRepositoryListener metadataInvalid
+WARNING: Invalid metadata com.ericsson.nms.mediation:MediationCore:1.0.3-SNAPSHOT/maven-metadata.xml
+Jun 26, 2012 11:04:57 PM org.jboss.shrinkwrap.resolver.impl.maven.LogRepositoryListener metadataInvalid
+WARNING: Invalid metadata com.ericsson.nms.mediation:MediationCore-api:1.0.3-SNAPSHOT/maven-metadata.xml
+23:05:06,078 INFO  [org.jboss.as.repository] (management-handler-thread - 1) JBAS014900: Content added at location C:\Users\edejket\git\MediationService\testsuite\integration\jee\target\jboss-as-7.1.1.Final\standalone\data\content\fd\d6d60fc776847749f7293676b702cf1675fb00\content
+23:05:06,107 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "MediationService.ear"
+23:05:06,822 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "mitest.war"
+23:05:06,822 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "mediation-service-jca-rar-1.0.3-SNAPSHOT.rar"
+23:05:10,084 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016002: Processing weld deployment MediationService.ear
+23:05:10,158 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) JBAS016002: Processing weld deployment mitest.war
+23:05:10,163 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016002: Processing weld deployment mediation-service-jca-rar-1.0.3-SNAPSHOT.rar
+23:05:10,296 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named ResultListener in deployment unit subdeployment "mediation-service-jca-rar-1.0.3-SNAPSHOT.rar" of deployment "MediationService.ear" are as follows:
+
+	java:global/MediationService/mediation-service-jca-rar-1.0.3-SNAPSHOT/ResultListener!com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.ResultListener
+	java:app/mediation-service-jca-rar-1.0.3-SNAPSHOT/ResultListener!com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.ResultListener
+	java:module/ResultListener!com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.ResultListener
+	java:global/MediationService/mediation-service-jca-rar-1.0.3-SNAPSHOT/ResultListener
+	java:app/mediation-service-jca-rar-1.0.3-SNAPSHOT/ResultListener
+	java:module/ResultListener
+
+23:05:10,303 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named DataPathParser in deployment unit subdeployment "mediation-service-jca-rar-1.0.3-SNAPSHOT.rar" of deployment "MediationService.ear" are as follows:
+
+	java:global/MediationService/mediation-service-jca-rar-1.0.3-SNAPSHOT/DataPathParser!com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathParser
+	java:app/mediation-service-jca-rar-1.0.3-SNAPSHOT/DataPathParser!com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathParser
+	java:module/DataPathParser!com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathParser
+	java:global/MediationService/mediation-service-jca-rar-1.0.3-SNAPSHOT/DataPathParser
+	java:app/mediation-service-jca-rar-1.0.3-SNAPSHOT/DataPathParser
+	java:module/DataPathParser
+
+23:05:10,307 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named DataPathConfigurationResolver in deployment unit subdeployment "mediation-service-jca-rar-1.0.3-SNAPSHOT.rar" of deployment "MediationService.ear" are as follows:
+
+	java:global/MediationService/mediation-service-jca-rar-1.0.3-SNAPSHOT/DataPathConfigurationResolver!com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver
+	java:app/mediation-service-jca-rar-1.0.3-SNAPSHOT/DataPathConfigurationResolver!com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver
+	java:module/DataPathConfigurationResolver!com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver
+	java:global/MediationService/mediation-service-jca-rar-1.0.3-SNAPSHOT/DataPathConfigurationResolver
+	java:app/mediation-service-jca-rar-1.0.3-SNAPSHOT/DataPathConfigurationResolver
+	java:module/DataPathConfigurationResolver
+
+23:05:10,310 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named DataPathManager in deployment unit subdeployment "mediation-service-jca-rar-1.0.3-SNAPSHOT.rar" of deployment "MediationService.ear" are as follows:
+
+	java:global/MediationService/mediation-service-jca-rar-1.0.3-SNAPSHOT/DataPathManager!com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathManager
+	java:app/mediation-service-jca-rar-1.0.3-SNAPSHOT/DataPathManager!com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathManager
+	java:module/DataPathManager!com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathManager
+	java:global/MediationService/mediation-service-jca-rar-1.0.3-SNAPSHOT/DataPathManager
+	java:app/mediation-service-jca-rar-1.0.3-SNAPSHOT/DataPathManager
+	java:module/DataPathManager
+
+23:05:10,313 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named MediationTaskProcessor in deployment unit subdeployment "mediation-service-jca-rar-1.0.3-SNAPSHOT.rar" of deployment "MediationService.ear" are as follows:
+
+	java:global/MediationService/mediation-service-jca-rar-1.0.3-SNAPSHOT/MediationTaskProcessor!com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.MediationTaskProcessor
+	java:app/mediation-service-jca-rar-1.0.3-SNAPSHOT/MediationTaskProcessor!com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.MediationTaskProcessor
+	java:module/MediationTaskProcessor!com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.MediationTaskProcessor
+	java:global/MediationService/mediation-service-jca-rar-1.0.3-SNAPSHOT/MediationTaskProcessor
+	java:app/mediation-service-jca-rar-1.0.3-SNAPSHOT/MediationTaskProcessor
+	java:module/MediationTaskProcessor
+
+23:05:10,328 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016005: Starting Services for CDI deployment: MediationService.ear
+23:05:10,356 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900 1.1.5 (AS71)
+23:05:10,372 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016008: Starting weld service for deployment MediationService.ear
+23:05:10,792 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-4) JBAS010406: Registered connection factory java:/eis/CamelConnectionFactory
+23:05:10,793 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-2) trying to deploy queue jms.queue.NonModeledMediationResponseQueue
+23:05:10,795 INFO  [org.jboss.as.messaging] (MSC service thread 1-2) JBAS011601: Bound messaging object to jndi name java:/queue/NonModeledMediationResponseQueue
+23:05:10,797 INFO  [org.jboss.as.messaging] (MSC service thread 1-2) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/queue/NonModeledMediationResponseQueue
+23:05:10,806 INFO  [CamelResourceAdapter] (MSC service thread 1-4) Bootstraping Camel Resource Adapter...
+23:05:10,811 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelManagedConnection] (JCA PoolFiller) CamelManagedConnection constructor called...
+23:05:10,814 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelManagedConnection] (JCA PoolFiller) addConnectionEventListener()
+23:05:10,814 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelManagedConnection] (JCA PoolFiller) CamelManagedConnection constructor called...
+23:05:10,814 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelManagedConnection] (JCA PoolFiller) addConnectionEventListener()
+23:05:10,934 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Solder Config XML provider starting...
+23:05:10,939 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Loading XmlDocumentProvider: org.jboss.solder.config.xml.bootstrap.ResourceLoaderXmlDocumentProvider
+23:05:10,954 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Reading XML file: vfs:/C:/Users/edejket/git/MediationService/testsuite/integration/jee/content/MediationService.ear/mediation-service-jca-rar-1.0.3-SNAPSHOT.rar/sdk-eventbus-api-1.0.8.jar/META-INF/beans.xml
+23:05:10,965 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Reading XML file: vfs:/C:/Users/edejket/git/MediationService/testsuite/integration/jee/content/MediationService.ear/mediation-service-jca-rar-1.0.3-SNAPSHOT.rar/sdk-tracing-1.0.7.jar/META-INF/beans.xml
+23:05:10,970 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Reading XML file: vfs:/C:/Users/edejket/git/MediationService/testsuite/integration/jee/content/MediationService.ear/mediation-service-jca-rar-1.0.3-SNAPSHOT.rar/MediationService-jca.jar/META-INF/beans.xml
+23:05:10,974 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Reading XML file: vfs:/C:/Users/edejket/git/MediationService/testsuite/integration/jee/content/MediationService.ear/mediation-service-jca-rar-1.0.3-SNAPSHOT.rar/sdk-services-core-1.0.7.jar/META-INF/beans.xml
+23:05:10,977 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Reading XML file: vfs:/C:/Users/edejket/git/MediationService/testsuite/integration/jee/content/MediationService.ear/mediation-service-jca-rar-1.0.3-SNAPSHOT.rar/model-service-api-1.0.7.jar/META-INF/beans.xml
+23:05:10,980 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Reading XML file: vfs:/C:/Users/edejket/git/MediationService/testsuite/integration/jee/content/MediationService.ear/mediation-service-jca-rar-1.0.3-SNAPSHOT.rar/sdk-modeled-eventbus-api-1.0.8.jar/META-INF/beans.xml
+23:05:10,981 INFO  [org.apache.camel.impl.DefaultCamelContext] (MSC service thread 1-4) Apache Camel 2.9.1 (CamelContext: camel-1) is starting
+23:05:10,985 INFO  [org.apache.camel.management.ManagementStrategyFactory] (MSC service thread 1-4) JMX enabled. Using ManagedManagementStrategy.
+23:05:10,985 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Reading XML file: vfs:/C:/Users/edejket/git/MediationService/testsuite/integration/jee/content/MediationService.ear/mediation-service-jca-rar-1.0.3-SNAPSHOT.rar/sdk-eventbus-jms-1.0.7.jar/META-INF/beans.xml
+23:05:10,988 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Reading XML file: vfs:/C:/Users/edejket/git/MediationService/testsuite/integration/jee/content/MediationService.ear/mediation-service-jca-rar-1.0.3-SNAPSHOT.rar/sdk-config-impl-dev-1.0.7.jar/META-INF/beans.xml
+23:05:10,992 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Reading XML file: vfs:/C:/Users/edejket/git/MediationService/testsuite/integration/jee/content/MediationService.ear/mediation-service-jca-rar-1.0.3-SNAPSHOT.rar/sdk-el-1.0.7.jar/META-INF/beans.xml
+23:05:10,995 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Reading XML file: vfs:/C:/Users/edejket/git/MediationService/testsuite/integration/jee/content/MediationService.ear/mediation-service-jca-rar-1.0.3-SNAPSHOT.rar/sdk-eventbus-core-1.0.7.jar/META-INF/beans.xml
+23:05:10,998 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Reading XML file: vfs:/C:/Users/edejket/git/MediationService/testsuite/integration/jee/content/MediationService.ear/mediation-service-jca-rar-1.0.3-SNAPSHOT.rar/sdk-eventbus-jms-hornetq-1.0.7.jar/META-INF/beans.xml
+23:05:11,000 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Reading XML file: vfs:/C:/Users/edejket/git/MediationService/testsuite/integration/jee/content/MediationService.ear/mediation-service-jca-rar-1.0.3-SNAPSHOT.rar/MediationService-jca-ejb.jar/META-INF/beans.xml
+23:05:11,005 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Reading XML file: vfs:/C:/Users/edejket/git/MediationService/testsuite/integration/jee/content/MediationService.ear/mediation-service-jca-rar-1.0.3-SNAPSHOT.rar/sdk-tracing-api-1.0.7.jar/META-INF/beans.xml
+23:05:11,007 INFO  [org.apache.camel.management.DefaultManagementLifecycleStrategy] (MSC service thread 1-4) StatisticsLevel at All so enabling load performance statistics
+23:05:11,010 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Reading XML file: vfs:/C:/Users/edejket/git/MediationService/testsuite/integration/jee/content/MediationService.ear/mediation-service-jca-rar-1.0.3-SNAPSHOT.rar/sdk-modeled-eventbus-1.0.7.jar/META-INF/beans.xml
+23:05:11,013 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Reading XML file: vfs:/C:/Users/edejket/git/MediationService/testsuite/integration/jee/content/MediationService.ear/mediation-service-jca-rar-1.0.3-SNAPSHOT.rar/model-service-mock-1.0.7.jar/META-INF/beans.xml
+23:05:11,017 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Reading XML file: vfs:/C:/Users/edejket/git/MediationService/testsuite/integration/jee/content/MediationService.ear/mediation-service-jca-rar-1.0.3-SNAPSHOT.rar/sdk-el-api-1.0.7.jar/META-INF/beans.xml
+23:05:11,024 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Reading XML file: vfs:/C:/Users/edejket/git/MediationService/testsuite/integration/jee/content/MediationService.ear/mediation-service-jca-rar-1.0.3-SNAPSHOT.rar/sdk-config-core-1.0.7.jar/META-INF/beans.xml
+23:05:11,030 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Reading XML file: vfs:/C:/Users/edejket/git/MediationService/testsuite/integration/jee/content/MediationService.ear/mediation-service-jca-rar-1.0.3-SNAPSHOT.rar/sdk-config-api-1.0.9.jar/META-INF/beans.xml
+23:05:11,035 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-5) Reading XML file: vfs:/C:/Users/edejket/git/MediationService/testsuite/integration/jee/content/MediationService.ear/mediation-service-jca-rar-1.0.3-SNAPSHOT.rar/MediationCore-api-1.0.3-SNAPSHOT.jar/META-INF/beans.xml
+23:05:11,041 INFO  [org.jboss.solder.Version] (MSC service thread 1-5) Solder 3.1.1.Final (build id: 3.1.1.Final)
+23:05:11,140 INFO  [org.apache.camel.impl.converter.AnnotationTypeConverterLoader] (MSC service thread 1-4) Found 3 packages with 15 @Converter classes to load
+23:05:11,161 INFO  [org.apache.camel.impl.converter.DefaultTypeConverter] (MSC service thread 1-4) Loaded 169 core type converters (total 169 type converters)
+23:05:11,166 INFO  [org.apache.camel.impl.converter.DefaultTypeConverter] (MSC service thread 1-4) Loaded additional 0 type converters (total 169 type converters) in 0.002 seconds
+23:05:11,186 INFO  [org.apache.camel.impl.DefaultCamelContext] (MSC service thread 1-4) Total 0 routes, of which 0 is started.
+23:05:11,186 INFO  [org.apache.camel.impl.DefaultCamelContext] (MSC service thread 1-4) Apache Camel 2.9.1 (CamelContext: camel-1) started in 0.205 seconds
+23:05:11,221 INFO  [org.jboss.as.connector.deployers.RADeployer] (MSC service thread 1-4) IJ020002: Deployed: file:/C:/Users/edejket/git/MediationService/testsuite/integration/jee/target/jboss-as-7.1.1.Final/standalone/tmp/vfs/deploymentf32765804276a328/mediation-service-jca-rar-1.0.3-SNAPSHOT.rar-973fac578353daf7/contents/
+23:05:11,228 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-4) JBAS010401: Bound JCA ConnectionFactory [java:/eis/CamelConnectionFactory]
+23:05:12,948 INFO  [org.jboss.solder.core.CoreExtension] (MSC service thread 1-5) Preventing class com.ericsson.oss.itpf.datalayer.eventbus.jms.extension.MessageObserver from being installed as bean due to @Veto annotation
+23:05:12,956 INFO  [org.jboss.solder.core.CoreExtension] (MSC service thread 1-5) Preventing class com.ericsson.oss.itpf.datalayer.eventbus.jms.extension.CDIObserverNotifier from being installed as bean due to @Veto annotation
+23:05:14,297 INFO  [org.hibernate.validator.util.Version] (MSC service thread 1-5) Hibernate Validator 4.2.0.Final
+23:05:14,552 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (Thread-2 (HornetQ-remoting-threads-HornetQServerImpl::serverUUID=ee8dc705-bfda-11e1-96f0-0024d7c231fc-33430404-29392457)) trying to deploy queue jms.queue.EventBasedMediationClientBean
+23:05:14,576 INFO  [org.jboss.as.messaging] (Thread-2 (HornetQ-remoting-threads-HornetQServerImpl::serverUUID=ee8dc705-bfda-11e1-96f0-0024d7c231fc-33430404-29392457)) JBAS011601: Bound messaging object to jndi name java:/queue/MediationClientConsumerQueue
+23:05:14,605 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (Thread-2 (HornetQ-remoting-threads-HornetQServerImpl::serverUUID=ee8dc705-bfda-11e1-96f0-0024d7c231fc-33430404-29392457)) trying to deploy queue jms.queue.FileCollectionResultHandler
+23:05:14,609 INFO  [org.jboss.as.messaging] (Thread-2 (HornetQ-remoting-threads-HornetQServerImpl::serverUUID=ee8dc705-bfda-11e1-96f0-0024d7c231fc-33430404-29392457)) JBAS011601: Bound messaging object to jndi name java:/queue/FileCollectionResponseQueue
+23:05:14,625 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (Thread-2 (HornetQ-remoting-threads-HornetQServerImpl::serverUUID=ee8dc705-bfda-11e1-96f0-0024d7c231fc-33430404-29392457)) trying to deploy queue jms.queue.MediationServiceConsumer
+23:05:14,629 INFO  [org.jboss.as.messaging] (Thread-2 (HornetQ-remoting-threads-HornetQServerImpl::serverUUID=ee8dc705-bfda-11e1-96f0-0024d7c231fc-33430404-29392457)) JBAS011601: Bound messaging object to jndi name java:/queue/MediationServiceConsumerQueue
+23:05:14,832 INFO  [org.jboss.web] (MSC service thread 1-1) JBAS018210: Registering web context: /mitest
+23:05:14,922 INFO  [org.jboss.as.server] (management-handler-thread - 1) JBAS018559: Deployed "MediationService.ear"
+DEBUG | nio                                 | Started channel thread 'Remoting "endpoint" read-1', selector sun.nio.ch.WindowsSelectorImpl@841a34
+DEBUG | nio                                 | Started channel thread 'Remoting "endpoint" write-1', selector sun.nio.ch.WindowsSelectorImpl@1bcfba2
+DEBUG | VersionedConectionFactory           | Available version (Versions  0x01)
+DEBUG | VersionedConectionFactory           | Calling a stable server
+23:05:16,575 INFO  [org.apache.ftpserver.impl.DefaultFtpServer] (http--127.0.0.1-8580-1) FTP server started
+23:05:16,669 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.MediationTaskProcessor] (Thread-1 (HornetQ-client-global-threads-18721315)) MediationTaskProcessor recieved new message to process: EventImpl [name=FileCollectionJob, namespace=com.ericsson.oss.mediation.core.events, version=1.0.3, metadata={}, attributes=[ModeledEventAttributeImpl [name=destinationDirectory, value=, filterable=false], ModeledEventAttributeImpl [name=destinationFileName, value=TransferedFileName.txt, filterable=false], ModeledEventAttributeImpl [name=nodeAddress, value=FDN1, filterable=false], ModeledEventAttributeImpl [name=sourceDirectory, value=, filterable=false], ModeledEventAttributeImpl [name=sourceFileName, value=RemoteFile.txt, filterable=false]], requiredClazz=class com.ericsson.oss.mediation.core.events.MediationTaskRequest]
+23:05:16,679 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathParser] (Thread-1 (HornetQ-client-global-threads-18721315)) parsePathDefinition called with: [com.ericsson.oss.mediation.core.events.FileCollectionJob@9bb3fcf7]
+23:05:16,679 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathParser] (Thread-1 (HornetQ-client-global-threads-18721315)) Using DataPathTemplate provider com.ericsson.nms.mediation.datapath.providers.impl.XMLDataPathTemplateProvider$Proxy$_$$_WeldClientProxy
+23:05:16,681 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathParser] (Thread-1 (HornetQ-client-global-threads-18721315)) lookupTemplateNameFromConfig() is returning data path type id=[com.ericsson.nms.mediation.singleFileTransfer] for FDN=[FDN1]
+23:05:16,686 DEBUG [com.ericsson.nms.mediation.datapath.providers.impl.XMLDataPathTemplateProvider] (Thread-1 (HornetQ-client-global-threads-18721315)) readAndCacheTemplates called, reading xml file and caching templates
+23:05:16,686 DEBUG [com.ericsson.nms.mediation.datapath.providers.impl.XMLDataPathTemplateProvider] (Thread-1 (HornetQ-client-global-threads-18721315)) provideTemplates() called with injected filename src/test/ftp_test/conf/testDatapaths.xml
+23:05:17,244 DEBUG [com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates] (Thread-1 (HornetQ-client-global-threads-18721315)) Looking for DataPathType with Id=[com.ericsson.nms.mediation.singleFileTransfer]
+23:05:17,244 DEBUG [com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates] (Thread-1 (HornetQ-client-global-threads-18721315)) Found DataPathType with Id=[com.ericsson.nms.mediation.singleFileTransfer]
+23:05:17,244 DEBUG [com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates] (Thread-1 (HornetQ-client-global-threads-18721315)) creating datapath definition template for DataPathType with Id=[com.ericsson.nms.mediation.singleFileTransfer]
+23:05:17,244 DEBUG [com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates] (Thread-1 (HornetQ-client-global-threads-18721315)) Found BeanType with Id=[eftpProcessor], and className=[com.ericsson.nms.mediation.EftpProcessor] 
+23:05:17,244 DEBUG [com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates] (Thread-1 (HornetQ-client-global-threads-18721315)) Found ReferenceType with ref=[EventFTP], and type=[ENDPOINT] 
+23:05:17,244 DEBUG [com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates] (Thread-1 (HornetQ-client-global-threads-18721315)) Found BeanType with Id=[eftpPostProcessor], and className=[com.ericsson.nms.mediation.EFTPPostProcessor] 
+23:05:17,244 DEBUG [com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates] (Thread-1 (HornetQ-client-global-threads-18721315)) Found ReferenceType with ref=[Sftp_File], and type=[ENDPOINT] 
+23:05:17,245 DEBUG [com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates] (Thread-1 (HornetQ-client-global-threads-18721315)) Found BeanType with Id=[Sftp_EventProcessor], and className=[com.ericsson.nms.mediation.EventProcessor] 
+23:05:17,245 DEBUG [com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplates] (Thread-1 (HornetQ-client-global-threads-18721315)) Found EndPointType with Id=[anonymous], uri=[jms], and uri_schema=[jms:queue:${queueName}?username=guest&password=guestp] 
+23:05:17,245 DEBUG [com.ericsson.nms.mediation.datapath.api.DataPathDefinitionTemplate] (Thread-1 (HornetQ-client-global-threads-18721315)) DataPathDefinitionTemplate constructor called...
+23:05:17,246 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver] (Thread-1 (HornetQ-client-global-threads-18721315)) resolving properties for endpoint with uri=[eftp], and Id=[EventFTP, endpoint schema=[eftp://${ipAddress}:${port}?username=${user}&password=${password}]
+23:05:17,250 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver] (Thread-1 (HornetQ-client-global-threads-18721315)) Unresolved URI Schema=[eftp://${ipAddress}:${port}?username=${user}&password=${password}]
+23:05:17,251 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver] (Thread-1 (HornetQ-client-global-threads-18721315)) Replacing variable=[ipAddress], with value=[127.0.0.1]
+23:05:17,251 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver] (Thread-1 (HornetQ-client-global-threads-18721315)) Replacing variable=[port], with value=[2221]
+23:05:17,251 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver] (Thread-1 (HornetQ-client-global-threads-18721315)) Replacing variable=[user], with value=[deki]
+23:05:17,251 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver] (Thread-1 (HornetQ-client-global-threads-18721315)) Replacing variable=[password], with value=[guestp]
+23:05:17,251 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver] (Thread-1 (HornetQ-client-global-threads-18721315)) resolving properties for endpoint with uri=[file], and Id=[Sftp_File, endpoint schema=[file:${directory}]
+23:05:17,252 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver] (Thread-1 (HornetQ-client-global-threads-18721315)) Unresolved URI Schema=[file:${directory}]
+23:05:17,252 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver] (Thread-1 (HornetQ-client-global-threads-18721315)) Replacing variable=[directory], with value=[src/test/ftp_test/local/transfer_dir]
+23:05:17,252 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver] (Thread-1 (HornetQ-client-global-threads-18721315)) resolving properties for endpoint with uri=[jms], and Id=[anonymous, endpoint schema=[jms:queue:${queueName}?username=guest&password=guestp]
+23:05:17,253 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver] (Thread-1 (HornetQ-client-global-threads-18721315)) Unresolved URI Schema=[jms:queue:${queueName}?username=guest&password=guestp]
+23:05:17,253 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathConfigurationResolver] (Thread-1 (HornetQ-client-global-threads-18721315)) Replacing variable=[queueName], with value=[NonModeledMediationResponseQueue]
+23:05:17,254 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.ejb.DataPathManager] (Thread-1 (HornetQ-client-global-threads-18721315)) getDataPath method was called
+23:05:17,254 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelConnectionFactoryImpl] (Thread-1 (HornetQ-client-global-threads-18721315)) getConnection method called with dataPathDefinition: com.ericsson.nms.mediation.datapath.api.DataPathDefinition@1112838
+23:05:17,254 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelConnectionRequestInfo] (Thread-1 (HornetQ-client-global-threads-18721315)) Constructing CamelConnectionRequestInfo...
+23:05:17,255 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelManagedConnection] (Thread-1 (HornetQ-client-global-threads-18721315)) getConnection(Subject subject,ConnectionRequestInfo cxRequestInfo) called with null,com.ericsson.nms.mediation.mi.camel.jca.ra.CamelConnectionRequestInfo@cbd60f
+23:05:17,255 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelManagedConnection] (Thread-1 (HornetQ-client-global-threads-18721315)) route doesnt exists, creating new camel route
+23:05:17,255 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelManagedConnection] (Thread-1 (HornetQ-client-global-threads-18721315)) addNewRoute called
+23:05:17,255 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelManagedConnection] (Thread-1 (HornetQ-client-global-threads-18721315)) *****BEFORE ADD ROUTEBUILDER******
+23:05:17,256 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelRouteBuilder] (Thread-1 (HornetQ-client-global-threads-18721315)) configuring route with routeId=[e54d120f-71a4-4727-acc0-32462547e330]
+23:05:17,274 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelRouteBuilder] (Thread-1 (HornetQ-client-global-threads-18721315)) Found bean type, adding processor=[com.ericsson.nms.mediation.EftpProcessor]
+23:05:17,274 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelRouteBuilder] (Thread-1 (HornetQ-client-global-threads-18721315)) trying to load processor with classname=[com.ericsson.nms.mediation.EftpProcessor]
+23:05:17,284 DEBUG [com.ericsson.nms.mediation.camel.components.eftp.EventDrivenFtpEndpoint] (Thread-1 (HornetQ-client-global-threads-18721315)) Endpoint start method called
+23:05:17,286 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelRouteBuilder] (Thread-1 (HornetQ-client-global-threads-18721315)) Found bean type, adding processor=[com.ericsson.nms.mediation.EFTPPostProcessor]
+23:05:17,286 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelRouteBuilder] (Thread-1 (HornetQ-client-global-threads-18721315)) trying to load processor with classname=[com.ericsson.nms.mediation.EFTPPostProcessor]
+23:05:17,303 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelRouteBuilder] (Thread-1 (HornetQ-client-global-threads-18721315)) Found bean type, adding processor=[com.ericsson.nms.mediation.EventProcessor]
+23:05:17,303 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelRouteBuilder] (Thread-1 (HornetQ-client-global-threads-18721315)) trying to load processor with classname=[com.ericsson.nms.mediation.EventProcessor]
+23:05:17,429 DEBUG [com.ericsson.nms.mediation.camel.components.eftp.EventDrivenFtpEndpoint] (Thread-1 (HornetQ-client-global-threads-18721315)) Endpoint start method called
+23:05:17,431 DEBUG [com.ericsson.nms.mediation.camel.components.eftp.EventDrivenFtpProducer] (Thread-1 (HornetQ-client-global-threads-18721315)) Starting producer: Producer[eftp://127.0.0.1:2221?password=guestp&username=deki]
+23:05:17,485 INFO  [org.apache.camel.impl.DefaultCamelContext] (Thread-1 (HornetQ-client-global-threads-18721315)) Route: e54d120f-71a4-4727-acc0-32462547e330 started and consuming from: Endpoint[direct://e54d120f-71a4-4727-acc0-32462547e330]
+23:05:17,485 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelManagedConnection] (Thread-1 (HornetQ-client-global-threads-18721315)) *****AFTER ADD ROUTEBUILDER******
+23:05:17,485 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelManagedConnection] (Thread-1 (HornetQ-client-global-threads-18721315)) addNewRoute returning routeId e54d120f-71a4-4727-acc0-32462547e330
+23:05:17,486 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelConnectionImpl] (Thread-1 (HornetQ-client-global-threads-18721315)) CamelConnectionImpl constructor called
+23:05:17,487 DEBUG [com.ericsson.nms.mediation.datapath.impl.DataPathImpl] (Thread-1 (HornetQ-client-global-threads-18721315)) applyInput called with request com.ericsson.oss.mediation.core.events.FileCollectionJob@9bb3fcf7
+23:05:17,487 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelConnectionImpl] (Thread-1 (HornetQ-client-global-threads-18721315)) applyInput method called...
+23:05:17,487 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelManagedConnection] (Thread-1 (HornetQ-client-global-threads-18721315)) applyInfo method called
+23:05:17,488 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelManagedConnection] (Thread-1 (HornetQ-client-global-threads-18721315)) start route with routeId e54d120f-71a4-4727-acc0-32462547e330 and request java.lang.Object@f36ec6
+23:05:17,488 INFO  [org.apache.camel.impl.DefaultCamelContext] (Thread-1 (HornetQ-client-global-threads-18721315)) Route: e54d120f-71a4-4727-acc0-32462547e330 started and consuming from: Endpoint[direct://e54d120f-71a4-4727-acc0-32462547e330]
+23:05:17,498 DEBUG [com.ericsson.nms.mediation.EftpProcessor] (Thread-1 (HornetQ-client-global-threads-18721315)) EftpProcessor is processing...
+23:05:17,502 DEBUG [com.ericsson.nms.mediation.camel.components.eftp.EventDrivenFtpProducer] (Thread-1 (HornetQ-client-global-threads-18721315)) createConnection method called
+23:05:17,520 INFO  [org.apache.ftpserver.listener.nio.FtpLoggingFilter] (NioProcessor-3) CREATED
+23:05:17,525 INFO  [org.apache.ftpserver.listener.nio.FtpLoggingFilter] (pool-14-thread-1) OPENED
+23:05:17,548 INFO  [org.apache.ftpserver.listener.nio.FtpLoggingFilter] (pool-14-thread-1) SENT: 220 Service ready for new user.
+
+23:05:17,564 INFO  [org.apache.ftpserver.listener.nio.FtpLoggingFilter] (pool-14-thread-1) RECEIVED: USER deki
+23:05:17,564 INFO  [org.apache.ftpserver.listener.nio.FtpLoggingFilter] (pool-14-thread-1) SENT: 331 User name okay, need password for deki.
+
+23:05:17,564 INFO  [org.apache.ftpserver.listener.nio.FtpLoggingFilter] (pool-14-thread-1) RECEIVED: PASS *****
+23:05:17,564 INFO  [org.apache.ftpserver.command.impl.PASS] (pool-14-thread-1) Login success - deki
+23:05:17,564 DEBUG [com.ericsson.nms.mediation.camel.components.eftp.EventDrivenFtpProducer] (Thread-1 (HornetQ-client-global-threads-18721315)) getFile will be called for source: RemoteFile.txt
+23:05:17,564 INFO  [org.apache.ftpserver.listener.nio.FtpLoggingFilter] (pool-14-thread-1) SENT: 230 User logged in, proceed.
+
+23:05:17,564 INFO  [org.apache.ftpserver.listener.nio.FtpLoggingFilter] (pool-14-thread-1) RECEIVED: PORT 127,0,0,1,203,216
+23:05:17,579 INFO  [org.apache.ftpserver.listener.nio.FtpLoggingFilter] (pool-14-thread-2) SENT: 200 Command PORT okay.
+
+23:05:17,579 INFO  [org.apache.ftpserver.listener.nio.FtpLoggingFilter] (pool-14-thread-2) RECEIVED: RETR RemoteFile.txt
+23:05:17,579 DEBUG [com.ericsson.nms.mediation.camel.components.eftp.EventDrivenFtpProducer] (Thread-1 (HornetQ-client-global-threads-18721315)) process will be called for destination: TransferedFileName.txt
+23:05:17,579 DEBUG [com.ericsson.nms.mediation.camel.components.eftp.EventDrivenFtpProducer] (Thread-1 (HornetQ-client-global-threads-18721315)) releaseConnection called
+23:05:17,579 INFO  [org.apache.ftpserver.command.impl.RETR] (pool-14-thread-2) File downloaded /RemoteFile.txt
+23:05:17,579 DEBUG [com.ericsson.nms.mediation.EFTPPostProcessor] (Thread-1 (HornetQ-client-global-threads-18721315)) EFTPPostProcessor processor is processing...
+23:05:17,579 DEBUG [com.ericsson.nms.mediation.EFTPPostProcessor] (Thread-1 (HornetQ-client-global-threads-18721315)) EFTPPostProcessor placed counting input stream...
+23:05:17,579 INFO  [org.apache.ftpserver.listener.nio.FtpLoggingFilter] (pool-14-thread-2) SENT: 150 File status okay; about to open data connection.
+
+23:05:17,579 INFO  [org.apache.ftpserver.listener.nio.FtpLoggingFilter] (pool-14-thread-2) CLOSED
+23:05:17,580 DEBUG [com.ericsson.nms.mediation.EventProcessor] (Thread-1 (HornetQ-client-global-threads-18721315)) EventProcessor processing now...
+23:05:17,580 DEBUG [com.ericsson.nms.mediation.EventProcessor] (Thread-1 (HornetQ-client-global-threads-18721315)) Message body == null false
+23:05:17,580 DEBUG [com.ericsson.nms.mediation.EventProcessor] (Thread-1 (HornetQ-client-global-threads-18721315)) Transferred 0 bytes
+
+23:05:17,660 WARN  [org.apache.camel.component.jms.JmsBinding] (Thread-1 (HornetQ-client-global-threads-18721315)) Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: com.ericsson.oss.mediation.core.events.FileCollectionResult. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+23:05:17,675 DEBUG [com.ericsson.nms.mediation.datapath.impl.DataPathImpl] (Thread-1 (HornetQ-client-global-threads-18721315)) closing connection
+23:05:17,675 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelConnectionImpl] (Thread-1 (HornetQ-client-global-threads-18721315)) close method called...
+23:05:17,675 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelManagedConnection] (Thread-1 (HornetQ-client-global-threads-18721315)) cleanup()
+23:05:21,742 INFO  [org.jboss.as.messaging] (MSC service thread 1-7) JBAS011605: Unbound messaging object to jndi name java:/queue/NonModeledMediationResponseQueue
+23:05:21,742 INFO  [org.jboss.as.messaging] (MSC service thread 1-7) JBAS011605: Unbound messaging object to jndi name java:jboss/exported/jms/queue/NonModeledMediationResponseQueue
+23:05:21,743 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-5) JBAS010410: Unbound JCA ConnectionFactory [java:/eis/CamelConnectionFactory]
+23:05:21,745 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelManagedConnection] (MSC service thread 1-1) destroy()
+23:05:21,746 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelManagedConnection] (MSC service thread 1-1) removeConnectionEventListener()
+23:05:21,746 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelManagedConnection] (MSC service thread 1-1) destroy()
+23:05:21,747 DEBUG [com.ericsson.nms.mediation.mi.camel.jca.ra.CamelManagedConnection] (MSC service thread 1-1) removeConnectionEventListener()
+23:05:21,748 INFO  [CamelResourceAdapter] (MSC service thread 1-1) Stoping camel resource adapter...
+23:05:21,752 INFO  [org.apache.camel.impl.DefaultCamelContext] (MSC service thread 1-1) Apache Camel 2.9.1 (CamelContext: camel-1) is shutting down
+23:05:21,753 INFO  [org.apache.camel.impl.DefaultShutdownStrategy] (MSC service thread 1-1) Starting to graceful shutdown 1 routes (timeout 300 seconds)
+23:05:21,757 INFO  [org.apache.camel.impl.DefaultShutdownStrategy] (Camel (camel-1) thread #1 - ShutdownTask) Route: e54d120f-71a4-4727-acc0-32462547e330 shutdown complete, was consuming from: Endpoint[direct://e54d120f-71a4-4727-acc0-32462547e330]
+23:05:21,758 INFO  [org.apache.camel.impl.DefaultShutdownStrategy] (MSC service thread 1-1) Graceful shutdown of 1 routes completed in 0 seconds
+23:05:21,760 DEBUG [com.ericsson.nms.mediation.camel.components.eftp.EventDrivenFtpProducer] (MSC service thread 1-1) Stopping producer: Producer[eftp://127.0.0.1:2221?password=guestp&username=deki]
+23:05:21,765 DEBUG [com.ericsson.nms.mediation.camel.components.eftp.EventDrivenFtpEndpoint] (MSC service thread 1-1) endpoint stop method called
+23:05:21,765 DEBUG [com.ericsson.nms.mediation.camel.components.eftp.EventDrivenFtpEndpoint] (MSC service thread 1-1) endpoint stop method called
+23:05:21,766 INFO  [org.apache.camel.impl.DefaultInflightRepository] (MSC service thread 1-1) Shutting down with no inflight exchanges.
+23:05:21,771 INFO  [org.apache.camel.impl.DefaultCamelContext] (MSC service thread 1-1) Uptime: 10.789 seconds
+23:05:21,771 INFO  [org.apache.camel.impl.DefaultCamelContext] (MSC service thread 1-1) Apache Camel 2.9.1 (CamelContext: camel-1) is shutdown in 0.018 seconds
+23:05:21,786 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016009: Stopping weld service for deployment MediationService.ear
+23:05:22,142 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015877: Stopped deployment mitest.war in 418ms
+23:05:22,998 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment mediation-service-jca-rar-1.0.3-SNAPSHOT.rar in 1296ms
+23:05:23,088 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015877: Stopped deployment MediationService.ear in 1388ms
+23:05:23,320 INFO  [org.jboss.as.repository] (management-handler-thread - 2) JBAS014901: Content removed from location C:\Users\edejket\git\MediationService\testsuite\integration\jee\target\jboss-as-7.1.1.Final\standalone\data\content\fd\d6d60fc776847749f7293676b702cf1675fb00\content
+23:05:23,323 INFO  [org.jboss.as.server] (management-handler-thread - 2) JBAS018558: Undeployed "MediationService.ear"
+Running com.ericsson.nms.mediation.integration.mi.jca.MIIntegrationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.697 sec
+ERROR | connection                          | JBREM000200: Remote connection failed: java.io.IOException: An existing connection was forcibly closed by the remote host
+ERROR | connection                          | JBREM000200: Remote connection failed: java.io.IOException: An existing connection was forcibly closed by the remote host
+DEBUG | protocol                            | cancelled operation (1461182496) attachment: (org.jboss.as.controller.client.impl.AbstractModelControllerClient$OperationExecutionContext@108bddb) this: org.jboss.as.protocol.mgmt.ManagementChannelHandler@e8a6a2.
+DEBUG | protocol                            | cancelled operation (1953856071) attachment: (org.jboss.as.controller.client.impl.AbstractModelControllerClient$OperationExecutionContext@13d832) this: org.jboss.as.protocol.mgmt.ManagementChannelHandler@e8a6a2.
+DEBUG | protocol                            | cancelled operation (1067521399) attachment: (org.jboss.as.controller.client.impl.AbstractModelControllerClient$OperationExecutionContext@ad9f8a) this: org.jboss.as.protocol.mgmt.ManagementChannelHandler@e8a6a2.
+DEBUG | protocol                            | cancelled operation (549452183) attachment: (org.jboss.as.controller.client.impl.AbstractModelControllerClient$OperationExecutionContext@c54b88) this: org.jboss.as.protocol.mgmt.ManagementChannelHandler@e8a6a2.
+DEBUG | protocol                            | cancelled operation (1184132660) attachment: (org.jboss.as.controller.client.impl.AbstractModelControllerClient$OperationExecutionContext@e1ece3) this: org.jboss.as.protocol.mgmt.ManagementChannelHandler@e8a6a2.
+DEBUG | protocol                            | cancelled operation (1558177212) attachment: (org.jboss.as.controller.client.impl.AbstractModelControllerClient$OperationExecutionContext@874a4f) this: org.jboss.as.protocol.mgmt.ManagementChannelHandler@e8a6a2.
+DEBUG | protocol                            | cancelled operation (2062500487) attachment: (org.jboss.as.controller.client.impl.AbstractModelControllerClient$OperationExecutionContext@1f9310) this: org.jboss.as.protocol.mgmt.ManagementChannelHandler@e8a6a2.
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ mediation-service-testsuite-integration-jee ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: C:\Users\edejket\git\MediationService\testsuite\integration\jee\target\mediation-service-testsuite-integration-jee-1.0.3-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mediation-service-testsuite-integration-jee ---
+[INFO] Installing C:\Users\edejket\git\MediationService\testsuite\integration\jee\target\mediation-service-testsuite-integration-jee-1.0.3-SNAPSHOT.jar to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\mediation-service-testsuite-integration-jee\1.0.3-SNAPSHOT\mediation-service-testsuite-integration-jee-1.0.3-SNAPSHOT.jar
+[INFO] Installing C:\Users\edejket\git\MediationService\testsuite\integration\jee\pom.xml to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\mediation-service-testsuite-integration-jee\1.0.3-SNAPSHOT\mediation-service-testsuite-integration-jee-1.0.3-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building [mediation-service-testsuite-integration] TestSuite Integration JEE Cluster 1.0.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ mediation-service-testsuite-integration-jee-cluster ---
+[INFO] Deleting C:\Users\edejket\git\MediationService\testsuite\integration\jee-cluster\target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-plugin-versions) @ mediation-service-testsuite-integration-jee-cluster ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-versions) @ mediation-service-testsuite-integration-jee-cluster ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.4:analyze-dep-mgt (default) @ mediation-service-testsuite-integration-jee-cluster ---
+[INFO] Found Resolved Dependency / DependencyManagement mismatches:
+[INFO]    None
+[INFO] 
+[INFO] --- rstate-maven-plugin:1.0:rstate (rstate) @ mediation-service-testsuite-integration-jee-cluster ---
+[INFO] Using RState = R1A03_SNAPSHOT
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ mediation-service-testsuite-integration-jee-cluster ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\testsuite\integration\jee-cluster\src\main\resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:copy-resources (copy-resources) @ mediation-service-testsuite-integration-jee-cluster ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\edejket\git\MediationService\testsuite\integration\jee-cluster\src\main\etf
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ mediation-service-testsuite-integration-jee-cluster ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ mediation-service-testsuite-integration-jee-cluster ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ mediation-service-testsuite-integration-jee-cluster ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ mediation-service-testsuite-integration-jee-cluster ---
+[INFO] Surefire report directory: C:\Users\edejket\git\MediationService\testsuite\integration\jee-cluster\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Concurrency config is parallel='none', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ mediation-service-testsuite-integration-jee-cluster ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: C:\Users\edejket\git\MediationService\testsuite\integration\jee-cluster\target\mediation-service-testsuite-integration-jee-cluster-1.0.3-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mediation-service-testsuite-integration-jee-cluster ---
+[INFO] Installing C:\Users\edejket\git\MediationService\testsuite\integration\jee-cluster\target\mediation-service-testsuite-integration-jee-cluster-1.0.3-SNAPSHOT.jar to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\mediation-service-testsuite-integration-jee-cluster\1.0.3-SNAPSHOT\mediation-service-testsuite-integration-jee-cluster-1.0.3-SNAPSHOT.jar
+[INFO] Installing C:\Users\edejket\git\MediationService\testsuite\integration\jee-cluster\pom.xml to C:\Users\edejket\.m2\repository\com\ericsson\nms\mediation\mediation-service-testsuite-integration-jee-cluster\1.0.3-SNAPSHOT\mediation-service-testsuite-integration-jee-cluster-1.0.3-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] [MediationService]  Project ....................... SUCCESS [2.245s]
+[INFO] [MediationService] JCA API JAR .................... SUCCESS [12.013s]
+[INFO] [MediationService] EFTP ........................... SUCCESS [1.608s]
+[INFO] [MediationService] JCA JAR ........................ SUCCESS [1.849s]
+[INFO] [MediationService] JCA EJB ........................ SUCCESS [3.160s]
+[INFO] [MediationService] RAR Module ..................... SUCCESS [8.597s]
+[INFO] [MediationService] EAR Module ..................... SUCCESS [1.020s]
+[INFO] [MediationService] TestSuite ...................... SUCCESS [0.041s]
+[INFO] [mediation-service-testsuite] TestSuite Integration  SUCCESS [0.437s]
+[INFO] [mediation-service-testsuite-integration] TestSuite Integration Standalone  SUCCESS [0.695s]
+[INFO] [mediation-service-testsuite-integration] TestSuite Integration Standalone Cluster  SUCCESS [0.668s]
+[INFO] [mediation-service-testsuite-integration] TestSuite Integration JEE  SUCCESS [2:19.185s]
+[INFO] [mediation-service-testsuite-integration] TestSuite Integration JEE Cluster  SUCCESS [1.122s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2:58.766s
+[INFO] Finished at: Tue Jun 26 23:05:24 BST 2012
+[INFO] Final Memory: 34M/81M
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Copyright Ericsson LMI 2012. All rights reserved. No part of this document may be reproduced in any form without the written permission of the copyright owner.The contents of this document are subject to revision without notice due to continued progress in methodology, design and manufacturing. Ericsson shall have no liability for any error or damage of any kind resulting from the use of this document.--><ns2:eventDefinition xmlns:ns2="com.ericsson.oss.metamodel.oss_event" xmlns:ns1="com.ericsson.oss.metamodel.oss_common" defaultChannelId="MediationFailureResponseResultHandler" description="FileCollectionFailure modeled event" lifecycle="normal" ns1:name="FileCollectionFailure" ns1:namespace="com.ericsson.oss.mediation.pm.model" ns1:version="1.0.0" persistence="NON_PERSISTENT" priority="4" timeToLive="0">
+    <ns1:generationInfo className="com.ericsson.oss.mediation.pm.model.FileCollectionFailure" componentId="integration" generationDate="2013-01-17T14:23:00.000Z"/>
+    <ns1:inheritsFrom ns1:name="FileCollectionResult" ns1:namespace="com.ericsson.oss.mediation.pm.model" ns1:version="1.0.0"/>
+    <ns2:attribute description="errorMessage for file collection failure" filterable="false" lifecycle="normal" ns1:name="errorMessage">
+        <ns1:attributeDetail xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:StringDataType"/>
+    </ns2:attribute>
+    <ns2:attribute description="errorType description" filterable="false" lifecycle="normal" ns1:name="errorType">
+        <ns1:attributeDetail xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:StringDataType"/>
+    </ns2:attribute>
+</ns2:eventDefinition>

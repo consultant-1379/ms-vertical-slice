@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.ericsson.nms</groupId>
+		<artifactId>integration</artifactId>
+		<version>15.2.0.20</version>
+	</parent>
+	<groupId>com.ericsson.nms.mediation</groupId>
+	<artifactId>ms-vertical-slice</artifactId>
+	<version>1.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<url>http://www.ericsson.com</url>
+	<organization>
+		<name>Ericsson</name>
+	</organization>
+
+	<prerequisites>
+		<maven>3.0.3</maven>
+	</prerequisites>
+
+	<name>[${project.artifactId}] JEE6 Project</name>
+
+	<properties>
+		<version.weld>1.1.8.Final</version.weld>
+		<version.ejb>3.1</version.ejb>
+		<version.jee>6</version.jee>
+		<version.junit>4.10</version.junit>
+		<version.jboss.javaee.6>3.0.1.Final</version.jboss.javaee.6>
+		<version.jboss.as>jboss-eap-6.0.1</version.jboss.as>
+		<!-- Do not use JBoss community version use EAP 6. As JBoss version 7.1.1.Final 
+			is being used by maven plugin(version.jboss-as-maven-plugin) -->
+		<version.jboss.as.arquillian>7.2.0.Final</version.jboss.as.arquillian>
+		<version.mediation.sdk>1.9.1</version.mediation.sdk>
+		<version.pm.service>2.13.29</version.pm.service>
+		<version.pm.med.models>2.9.82</version.pm.med.models>
+		<version.mediation.core>3.0.2</version.mediation.core>
+		<version.mediation.service>3.0.21</version.mediation.service>
+		<version.data.persistence>1.40.1</version.data.persistence>
+		<version.access.control>2.7.17</version.access.control>
+		<version.camel.engine>2.0.11</version.camel.engine>
+		<version.arquillian-junit-container>1.0.0.Final</version.arquillian-junit-container>
+		<version.arquillian.bom>1.0.3.Final</version.arquillian.bom>
+		<version.arquillian-weld-se-embedded>1.0.0.CR3</version.arquillian-weld-se-embedded>
+		<version.jboss-as-maven-plugin>7.3.Final</version.jboss-as-maven-plugin>
+		<version.easymock>3.1</version.easymock>
+		<!-- When you want to switch to new Service Framework version only change 
+			value below -->
+		<version.service.framework>1.10.6</version.service.framework>
+		<project.ear.defaultLibBundleDir>lib</project.ear.defaultLibBundleDir>
+		<!-- JBoss modules your service will automatically add to classpath -->
+		<project.ear.Dependencies>org.slf4j</project.ear.Dependencies>
+	</properties>
+
+	<profiles>
+		<profile>
+			<id>update_versions</id>
+			<activation>
+				<property>
+					<name>updateVersions</name>
+				</property>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>versions-maven-plugin</artifactId>
+						<version>2.0</version>
+						<executions>
+							<execution>
+								<id>use-latest-releases</id>
+								<phase>validate</phase>
+								<goals>
+									<goal>use-latest-releases</goal>
+								</goals>
+							</execution>
+							<execution>
+								<phase>validate</phase>
+								<id>update-properties</id>
+								<goals>
+									<goal>update-properties</goal>
+								</goals>
+								<inherited>false</inherited>
+							</execution>
+						</executions>
+						<configuration>
+							<allowMajorUpdates>false</allowMajorUpdates>
+							<allowMinorUpdates>true</allowMinorUpdates>
+							<allowIncrementalUpdates>true</allowIncrementalUpdates>
+							<generateBackupPoms>false</generateBackupPoms>
+							<includes>
+								<include>com.ericsson.nms.mediation:mediation-sdk-bom:pom</include>
+								<include>com.ericsson.nms.mediation:mediation-core-bom:pom</include>
+								<include>com.ericsson.nms.mediation:mediation-service-bom:pom</include>
+								<include>com.ericsson.nms.services:pmservice-bom:pom</include>
+								<include>com.ericsson.oss.itpf.datalayer:DataPersistenceBOM:pom</include>
+								<include>com.ericsson.oss.itpf.sdk:ServiceFrameworkBOM:pom</include>
+								<include>com.ericsson.nms.mediation.models:pm-mediation-model:jar</include>
+							</includes>
+							<includeProperties>
+								version.mediation.sdk,version.pm.service,version.mediation.core,version.mediation.service,version.pm.med.models
+								,version.access.control,version.data.persistence
+							</includeProperties>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<!--This plugin's configuration is used to store Eclipse m2e settings 
+					only. It has no influence on the Maven build itself. -->
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>org.apache.maven.plugins</groupId>
+										<artifactId>maven-dependency-plugin</artifactId>
+										<versionRange>[2.4,)</versionRange>
+										<goals>
+											<goal>analyze-dep-mgt</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore />
+									</action>
+								</pluginExecution>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>org.apache.maven.plugins</groupId>
+										<artifactId>maven-ear-plugin</artifactId>
+										<versionRange>[2.7,)</versionRange>
+										<goals>
+											<goal>generate-application-xml</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore />
+									</action>
+								</pluginExecution>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>com.ericsson.maven.plugins</groupId>
+										<artifactId>rstate-maven-plugin</artifactId>
+										<versionRange>[1.0,)</versionRange>
+										<goals>
+											<goal>rstate</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore />
+									</action>
+								</pluginExecution>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>
+											org.codehaus.mojo
+										</groupId>
+										<artifactId>
+											versions-maven-plugin
+										</artifactId>
+										<versionRange>
+											[2.0,)
+										</versionRange>
+										<goals>
+											<goal>
+												use-latest-releases
+											</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+		<plugins>
+			<plugin>
+				<groupId>org.jboss.as.plugins</groupId>
+				<artifactId>jboss-as-maven-plugin</artifactId>
+				<configuration>
+					<filename>${project.parent.artifactId}.${project.packaging}</filename>
+					<skip>false</skip>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<configuration>
+					<failBuild>false</failBuild>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<dependencyManagement>
+		<dependencies>
+			<!-- Mediation SDK BOM import -->
+			<dependency>
+				<groupId>com.ericsson.nms.mediation</groupId>
+				<artifactId>mediation-sdk-bom</artifactId>
+				<version>${version.mediation.sdk}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.ericsson.nms.mediation</groupId>
+				<artifactId>mediation-core-bom</artifactId>
+				<version>${version.mediation.core}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<!-- Mediation Service BOM import -->
+			<dependency>
+				<groupId>com.ericsson.nms.mediation</groupId>
+				<artifactId>mediation-service-bom</artifactId>
+				<version>${version.mediation.service}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<!-- PM Service BOM import -->
+			<dependency>
+				<groupId>com.ericsson.nms.services</groupId>
+				<artifactId>pmservice-bom</artifactId>
+				<version>${version.pm.service}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+			<!-- DPS BOM import -->
+			<dependency>
+				<groupId>com.ericsson.oss.itpf.datalayer</groupId>
+				<artifactId>DataPersistenceBOM</artifactId>
+				<version>${version.data.persistence}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+			<!-- SWFK BOM import -->
+			<dependency>
+				<groupId>com.ericsson.oss.itpf.sdk</groupId>
+				<artifactId>ServiceFrameworkBOM</artifactId>
+				<version>${version.service.framework}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<!-- Model Service -->
+			<dependency>
+				<groupId>com.ericsson.oss.itpf.datalayer</groupId>
+				<artifactId>model-service-ear</artifactId>
+				<version>${version.model.service}</version>
+				<type>ear</type>
+			</dependency>
+			<!-- ARQ BOM import -->
+			<dependency>
+				<groupId>org.jboss.arquillian</groupId>
+				<artifactId>arquillian-bom</artifactId>
+				<version>${version.arquillian.bom}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<!-- JEE6 SPEC BOM import -->
+			<dependency>
+				<groupId>org.jboss.spec</groupId>
+				<artifactId>jboss-javaee-6.0</artifactId>
+				<version>${version.jboss.javaee.6}</version>
+				<type>pom</type>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.ericsson.nms.mediation.models</groupId>
+				<artifactId>pm-mediation-model</artifactId>
+				<version>${version.pm.med.models}</version>
+			</dependency>
+				<!-- Access Control service dependency -->
+			<dependency>
+				<groupId>com.ericsson.nms.mediation</groupId>
+				<artifactId>tss-service-api</artifactId>
+				<version>${version.access.control}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.ericsson.nms.mediation</groupId>
+				<artifactId>tss-service-common</artifactId>
+				<version>${version.access.control}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.ericsson.nms.mediation</groupId>
+				<artifactId>camel-engine-jca-rar</artifactId>
+				<version>${version.camel.engine}</version>
+				<type>rar</type>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<dependencies>
+		<dependency>
+			<groupId>javax.enterprise</groupId>
+			<artifactId>cdi-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.inject</groupId>
+			<artifactId>javax.inject</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.easymock</groupId>
+			<artifactId>easymock</artifactId>
+			<version>${version.easymock}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	<modules>
+		<module>testsuite</module>
+	</modules>
+</project>

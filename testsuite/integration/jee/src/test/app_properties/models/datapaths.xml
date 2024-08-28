@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mediation modelName="testModel" xmlns="http://www.ericsson.com/DataPaths"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<errorhandler id="ftp">
+	<processor id="tssNotificationProcessor"
+			classname="com.ericsson.oss.mediation.sets.pm.processors.SecurityInfoChangeNotificationProcessor" />
+		<processor id="errorProcessor"
+			classname="com.ericsson.oss.mediation.sets.pm.processors.FTPErrorProcessor" />
+		<to id="MESComponenet"
+			uri="mes://Ericsson">
+		</to>
+	</errorhandler>
+
+
+
+
+	<!-- Basic Data Path for SFTP Single File Transfer -->
+	<datapath id="com.ericsson.nms.mediation.singleFileTransfer" engine="camel"
+		errorhandler="ftp">
+		<protocolInfo name="PM" />
+		<headers>
+			<header name="secureFtp" value="${dps:secureFtp}"/>
+			<header name="ipAddress" value="${dps:ipAddress}" />
+			<header name="port" value="${dps:port}" />
+			<header name="username" value="${tss:username}" />
+			<header name="password" value="${tss:password}" />
+		</headers>
+		<accessPoint id="${datapathId}" type="synch" />
+		<processor id="esftpProcessor"
+			classname="com.ericsson.oss.mediation.sets.pm.processors.EftpProcessor" />
+
+		<to id="EventFTP"
+			uri="eftp://Ericsson">
+		</to>
+		<processor id="counterProcessor"
+			classname="com.ericsson.oss.mediation.components.CountingBytesProcessor" />
+		<to id="Sftp_File" uri="file:./">
+		</to>
+		<processor id="esftpEventProcessor"
+			classname="com.ericsson.oss.mediation.sets.pm.processors.EventProcessor" />
+		<processor id="fileTransferCleanupProcessor"
+			classname="com.ericsson.oss.mediation.sets.pm.processors.TransferCleanupProcessor" />
+		<to id="MESComponenet"
+			uri="mes://Ericsson">
+		</to>
+	</datapath>
+
+	<!-- Basic Data Path for SFTP Single File Transfer -->
+	<datapath id="com.ericsson.nms.mediation.complicatedSingleFileTransfer" engine="camel"
+		errorhandler="ftp">
+		<protocolInfo name="PM" />
+		<headers>
+			<header name="secureFtp" value="${tss:secureFtp}" />
+			<header name="ipAddress" value="${dps:ipAddress}" />
+			<header name="port" value="${dps:port}" />
+			<header name="username" value="${tss:username}" />
+			<header name="password" value="${tss:password}" />
+		</headers>
+		<accessPoint id="${datapathId}" type="synch" />
+		<processor id="esftpProcessor1"
+			classname="com.ericsson.oss.mediation.sets.pm.processors.EftpProcessor" />
+
+		<to id="EventFTP1"
+			uri="eftp://Ericsson1">
+		</to>
+
+		<processor id="counterProcessor1"
+			classname="com.ericsson.oss.mediation.components.CountingBytesProcessor" />
+		<processor id="gzipDecompressionProcessor1"
+			classname="com.ericsson.oss.mediation.component.GZIPDecompressingProcessor" />
+
+		<to id="Sftp_File1" uri="file:${directory}">
+			<property name="directory" type="instance" />
+		</to>
+		<processor id="esftpEventProcessor1"
+			classname="com.ericsson.oss.mediation.sets.pm.processors.EventProcessor" />
+		<to id="anonymous" uri="jms:queue:${queueName}?username=guest&amp;password=guestp">
+			<property name="queueName" type="instance" />
+		</to>
+	</datapath>
+</mediation>
